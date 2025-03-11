@@ -10,24 +10,31 @@ public class TankControls : MonoBehaviour
     private float rotation;
     private Rigidbody rb;
     public float jumpForce = 10f;
-    public bool isGrounded = true;
-
+    //public bool isGrounded = true;
+    //public float jumpTime = 1f;
+    //private bool canJump = true;
+    public float cooldownTime = 1f ;
+    private float nextJumpTime = 0 ;
 
     private void Update()
     {
 
-        
+        //Controls movement
         movement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
         rotation = Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime;
         rb = GetComponent<Rigidbody>();
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        
+        // controls jump cooldown
+        if (Time.time > nextJumpTime)
         {
-            Jump();
+            if (Input.GetButtonDown("Jump"))
+            {
+                Jump();
+                nextJumpTime = Time.time + cooldownTime;
+            }
             
         }
-        
-        
     }
 
     private void LateUpdate()
