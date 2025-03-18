@@ -24,7 +24,12 @@ public class TankControls : MonoBehaviour
         rotation = Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime;
         rb = GetComponent<Rigidbody>();
 
-        
+        //float dpadHorizontal = Input.GetAxis("DPadHorizontal"); 
+        //float dpadVertical = Input.GetAxis("DPadVertical");
+
+        //movement = dpadVertical * moveSpeed * Time.deltaTime;
+        //rotation = dpadHorizontal * rotateSpeed * Time.deltaTime;
+
         // controls jump cooldown
         if (Time.time > nextJumpTime)
         {
