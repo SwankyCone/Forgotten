@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: edf0f6104c549e24e998604ff8bdd3a9
   - enabled: 1
+    path: Assets/Scenes/Town_Center_Scene.unity
+    guid: ff5fad9238612244d85bd2e858a3648a
+  - enabled: 0
     path: Assets/Scenes/OIl_Rig_Base.unity
     guid: 040e70526a09a944eb88ea4bba96b180
   m_configObjects:

@@ -20,6 +20,7 @@ public class TankControls : MonoBehaviour
     {
 
         //Controls movement
+        Cursor.lockState = CursorLockMode.Locked;
         movement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
         rotation = Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime;
         rb = GetComponent<Rigidbody>();
