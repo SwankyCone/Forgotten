@@ -16,8 +16,8 @@ TagManager:
   - 
   - Camera
   - Ground
-  - 
-  - 
+  - insideBuilding
+  - OutsideBuilding
   - 
   - 
   - 
