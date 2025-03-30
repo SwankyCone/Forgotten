@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Interactable
+  - FirstPerson
   layers:
   - Default
   - TransparentFX
