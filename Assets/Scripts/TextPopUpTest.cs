@@ -9,8 +9,10 @@ public class TextPopUpTest : MonoBehaviour, IInteractable
         Debug.Log("hello"); 
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+    }
 
-
+    public void LockActivate()
+    {
 
     }
 }
