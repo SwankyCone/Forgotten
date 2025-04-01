@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -30,6 +29,33 @@ public class Dial : MonoBehaviour
 
         if (currentIndex >= 10) 
             currentIndex = 0;
+
+        LeanTween.cancel(gameObject);
+        LeanTween.rotateAroundLocal(gameObject, Vector3.right, -36, animationDuration).setOnComplete(RotationCompleteCallback);
+
+
+    }
+
+    private void RotationCompleteCallback()
+    {
+        onDialRotated?.Invoke(this);
+    }
+
+
+
+    public int GetNumber()
+    {
+        return currentIndex;
+    }
+
+    public void Lock()
+    {
+        isRotating = true;
+    }
+
+    public void Unlock()
+    {
+        isRotating = false ;
     }
 
 }

@@ -1,16 +1,39 @@
 using UnityEngine;
-
+using UnityEngine.Events;
 public class CombinationLock : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header(" Elements ")]
+    [SerializeField] private Dial[] dials;
+
+    [Header(" Settings ")]
+    [SerializeField] private string combination;
+
+    [Header(" Events ")]
+    [SerializeField] private UnityEvent onCorrectCombinationFound;
+
+    public void CheckCombination(Dial dial)
     {
-        
+        for (int i = 0; i < dials.Length; i++)
+        {
+            int combinationNumber = int.Parse(combination[i].ToString());
+
+            if (combinationNumber != dials[i].GetNumber())
+            {
+                dial.Unlock();
+                return;
+            }
+        }
+
+        correctCombination();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void correctCombination()
     {
+        for (int i = 0; i < dials.Length; ++i)
+            dials[i].Lock();
+
+        onCorrectCombinationFound?.Invoke();
         
     }
 }
