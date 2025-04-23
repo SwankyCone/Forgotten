@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bdb9bb051fffada48b3f732a1f21760d
+timeCreated: 1483552211
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 160565
+  packageName: Padlock Puzzle System
+  packageVersion: 1.6
+  assetPath: Assets/Padlock System V1.6/Materials/M_Padlock_Black/M_Padlock_Main_Body_Black.mat
+  uploadId: 668024

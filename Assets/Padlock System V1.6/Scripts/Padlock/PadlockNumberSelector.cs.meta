@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a368198d402e93e4e8a98fb3e19cd958
+timeCreated: 1471687861
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 160565
+  packageName: Padlock Puzzle System
+  packageVersion: 1.6
+  assetPath: Assets/Padlock System V1.6/Scripts/Padlock/PadlockNumberSelector.cs
+  uploadId: 668024

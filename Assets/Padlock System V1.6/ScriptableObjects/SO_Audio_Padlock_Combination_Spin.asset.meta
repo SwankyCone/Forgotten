@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bb0feec2724998941a9e0e30643c0ee8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 160565
+  packageName: Padlock Puzzle System
+  packageVersion: 1.6
+  assetPath: Assets/Padlock System V1.6/ScriptableObjects/SO_Audio_Padlock_Combination_Spin.asset
+  uploadId: 668024
