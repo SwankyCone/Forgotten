@@ -10,7 +10,7 @@ public class KeyBehaviour : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-      if (CompareTag("FirstPerson"))
+      if (CompareTag("Player"))
         {
             InventoryManager.Instance.AddItem(_itemType);
             Destroy(gameObject);
@@ -19,7 +19,7 @@ public class KeyBehaviour : MonoBehaviour, IInteractable
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.CompareTag("FirstPerson"))
+        if (collision.CompareTag("Player"))
         {
             InventoryManager.Instance.AddItem(_itemType);
             Destroy(gameObject);
