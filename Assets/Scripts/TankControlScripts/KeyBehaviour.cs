@@ -10,11 +10,9 @@ public class KeyBehaviour : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-      if (CompareTag("Player"))
-        {
-            InventoryManager.Instance.AddItem(_itemType);
-            Destroy(gameObject);
-        }
+        Debug.Log("fff");
+        InventoryManager.Instance.AddItem(_itemType);
+        Destroy(gameObject);
     }
 
     private void OnTriggerEnter(Collider collision)

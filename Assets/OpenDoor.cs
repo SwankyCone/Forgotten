@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class OpenDoor : MonoBehaviour, IInteractable
 {
-    Animator DoorOpen;
+    Animator Cube;
    
+
+    public void Start()
+    {
+        Cube = GetComponent<Animator>();
+    }
     public void Interact()
     {
         Debug.Log("hll");
-        DoorOpen.SetBool("DoorOpen", true);
+        Cube.SetBool("DoorOpen", true);
     }
 
-    public void Update()
-    {
-        DoorOpen = GetComponent<Animator>();
-    }
+   
 
 }

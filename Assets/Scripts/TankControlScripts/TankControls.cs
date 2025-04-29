@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class TankControls : MonoBehaviour
 {
     public float moveSpeed;
@@ -13,11 +14,16 @@ public class TankControls : MonoBehaviour
     //public bool isGrounded = true;
     //public float jumpTime = 1f;
     //private bool canJump = true;
-    public float cooldownTime = 1f ;
-    private float nextJumpTime = 0 ;
+    public float cooldownTime = 1f;
+    private float nextJumpTime = 0;
     public bool isWalking = false;
     public bool isCrouching = false;
     public float currentSpeed = 0f;
+
+    private float idleTimer = 0f;
+    private float afkThreshold = 5f;
+    private bool isAfk = false;
+
     private Rigidbody controller;
     Animator playerAnimator;
 
@@ -29,7 +35,9 @@ public class TankControls : MonoBehaviour
 
     private void Update()
     {
-       
+        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxis("Horizontal");
+
         //Controls movement
         Cursor.lockState = CursorLockMode.Locked;
         movement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
@@ -50,41 +58,54 @@ public class TankControls : MonoBehaviour
                 Jump();
                 nextJumpTime = Time.time + cooldownTime;
             }
-            
+
         }
+
+        bool isInput = Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f ||
+               Mathf.Abs(Input.GetAxis("Horizontal")) > 0.1f ||
+               Input.anyKey;
+
+        // Reset timer if there's input
+        if (isInput)
+        {
+            idleTimer = 0f;
+            isAfk = false;
+        }
+        else
+        {
+            idleTimer += Time.deltaTime;
+        }
+
+        bool hasMovementInput = Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f;
+
+        playerAnimator.SetBool("isWalking", hasMovementInput);
+        playerAnimator.SetBool("isInput", hasMovementInput);
+
+        // Update the Animator with the timer
+        playerAnimator.SetFloat("afkTime", idleTimer);
+
+
 
 
         //Animations
 
-        bool isWalking = currentSpeed > 0;
-        playerAnimator.SetBool("idle to walk", isWalking);
+        // Crouching
+        //if (Input.GetKeyDown(KeyCode.C))
+        //{
+        //isCrouching = !isCrouching; // Toggle crouch
+        //}
 
-        playerAnimator.SetBool("idle to walk", isWalking);
+        // Movement speed check
+        MonitorSpeed(); // Update currentSpeed
 
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            Debug.Log("hll");
-            playerAnimator.SetBool("idle to walk", true);
-        }
-        else
-        {
-            playerAnimator.SetBool("idle to walk", false);
-        }
+        // Animation logic
+        bool walking = Mathf.Abs(vertical) > 0.1f;
+        bool crouchWalking = isCrouching && walking;
 
+        playerAnimator.SetBool("isWalking", walking && !isCrouching);
+        playerAnimator.SetBool("isCrouching", isCrouching);
+        //playerAnimator.SetBool("isCrouchWalking", crouchWalking);
 
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            Debug.Log("hll");
-            playerAnimator.SetBool("Crouching", true);
-
-        }
-        else
-
-        {
-            playerAnimator.SetBool("Crouching", false);
-        }
-
-       
 
         //Animations
 
@@ -94,7 +115,7 @@ public class TankControls : MonoBehaviour
 
     private void MonitorSpeed()
     {
-        Vector3 horizontalVelocity = new Vector3(controller.velocity.x, 0, controller.velocity.z);
+        Vector3 horizontalVelocity = new Vector3(controller.linearVelocity.x, 0, controller.linearVelocity.z);
         currentSpeed = horizontalVelocity.magnitude;
         //Debug.Log("Player Speed: " + currentSpeed);
     }
@@ -112,56 +133,7 @@ public class TankControls : MonoBehaviour
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
 
-   public void ActivateAnimations()
-    {
 
-        
-
-
-        // Handle walking/running animations
-        //playerController.SetBool("idle to walk", isWalking);
-
-
-        // Handle crouch animations
-        
-
-        if (isCrouching)
-        {
-            playerAnimator.SetBool("Crouching Idle", true);
-            playerAnimator.SetBool("Crouch walk", Input.GetKey(KeyCode.W));
-        }
-        else
-        {
-            playerAnimator.SetBool("Crouching Idle", false);
-            playerAnimator.SetBool("Crouch walk", false);
-        }
-
-        
-
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-
-            playerAnimator.SetBool("Crouching", true);
-
-        }
-        else 
-        
-        {
-            playerAnimator.SetBool("Crouching", false);
-        }
-
-        if (isCrouching)
-        {
-            playerAnimator.SetBool("idle crouch", true);
-            playerAnimator.SetBool("Crouch walk", Input.GetKey(KeyCode.W));
-        }
-        else
-        {
-            playerAnimator.SetBool("idle crouch", false);
-            playerAnimator.SetBool("Crouch walk", false);
-        }
-
-    }
 
 
 }

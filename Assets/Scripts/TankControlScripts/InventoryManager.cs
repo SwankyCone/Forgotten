@@ -34,6 +34,7 @@ public class InventoryManager : MonoBehaviour
         KeyRed,
         KeyBlue,
         KeyGreen,
+        KeyYellow,
     }
 
 

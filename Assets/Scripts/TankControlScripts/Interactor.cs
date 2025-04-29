@@ -10,23 +10,25 @@ public class Interactor : MonoBehaviour
 {
     //public Transform InteractorSource;
     //public float interactCooldown = 1f;
-    public float InteractRange;
+    public float InteractRange = 3f;
     //private bool canInteract = true;
 
-    public float cooldownTime = 2;
+    public float cooldownTime = 2f;
 
-    private float nextInteractTime = 0;
+    private float nextInteractTime = 0f;
 
 
     private void Update()
     {
         //Debug.Log("Update is being called");
 
+
+
         if (Time.time > nextInteractTime)
         {
             if (Input.GetKeyDown(KeyCode.E))
-                //Debug.Log("F key pressed");
-                //nextInteractTime = Time.time + cooldownTime;
+            //Debug.Log("F key pressed");
+            //nextInteractTime = Time.time + cooldownTime;
             {
                 Ray r = new Ray(transform.position, transform.forward);
                 if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
@@ -42,5 +44,5 @@ public class Interactor : MonoBehaviour
         }
     }
 
-    
+
 }

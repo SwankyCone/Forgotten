@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31b46c98aa597a7458563bbd8bc1c037
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 160565
+  packageName: Padlock Puzzle System
+  packageVersion: 1.6
+  assetPath: Assets/Padlock System V1.6/Scenes/Padlock_DemoScene/LightingData.asset
+  uploadId: 668024

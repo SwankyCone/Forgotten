@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 036aa6eecdc91e5469de50bce025fdd5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 160565
+  packageName: Padlock Puzzle System
+  packageVersion: 1.6
+  assetPath: Assets/Padlock System V1.6/Prefabs/FPSController.prefab
+  uploadId: 668024

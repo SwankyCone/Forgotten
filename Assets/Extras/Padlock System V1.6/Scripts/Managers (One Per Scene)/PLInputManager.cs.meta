@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0d1bc422a1dfc92488b40e6975d6cc8d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 160565
+  packageName: Padlock Puzzle System
+  packageVersion: 1.6
+  assetPath: Assets/Padlock System V1.6/Scripts/Managers (One Per Scene)/PLInputManager.cs
+  uploadId: 668024

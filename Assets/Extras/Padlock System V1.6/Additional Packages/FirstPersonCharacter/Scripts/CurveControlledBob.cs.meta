@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 492f54f4accf00440828ffcb9e4fcc19
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 160565
+  packageName: Padlock Puzzle System
+  packageVersion: 1.6
+  assetPath: Assets/Padlock System V1.6/Additional Packages/FirstPersonCharacter/Scripts/CurveControlledBob.cs
+  uploadId: 668024

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 05ec5cf00ca181d45a42ba1870e148c3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 160565
+  packageName: Padlock Puzzle System
+  packageVersion: 1.6
+  assetPath: Assets/Padlock System V1.6/Additional Packages/FirstPersonCharacter/Scripts/FirstPersonController.cs
+  uploadId: 668024
