@@ -37,6 +37,8 @@ public class DoorDestory : MonoBehaviour, IInteractable
         {
             Cube.SetBool("DoorOpen", true);
             //if (audioManager != null && audioManager.doorUnlock != null)
+
+            // hori audio controller
                 audioManager.source.PlayOneShot(audioManager.doorUnlock);
         }
 
@@ -48,11 +50,14 @@ public class DoorDestory : MonoBehaviour, IInteractable
         }
     }
 
-    private IEnumerator ShowWarningText()
+    private IEnumerator ShowWarningText() // text pop up
     {
+        // change this to change text
         warningText.text = "Its Locked";
         warningText.gameObject.SetActive(true);
         yield return new WaitForSeconds(warningDisplayTime);
         warningText.gameObject.SetActive(false);
     }
+
+    
 }

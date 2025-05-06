@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Unity.VisualScripting.Member;
 
 
 public class TankControls : MonoBehaviour
 {
     public float moveSpeed;
+    public float jogSpeed;
     public float rotateSpeed;
     private float movement;
     private float rotation;
+    private float jogging;
     private Rigidbody rb;
     public float jumpForce = 10f;
     //public bool isGrounded = true;
@@ -24,6 +27,13 @@ public class TankControls : MonoBehaviour
     private float afkThreshold = 5f;
     private bool isAfk = false;
 
+    public AudioSource source;
+    public AudioClip Walk;
+    public AudioClip Run;
+    public AudioClip Swing;
+
+    [SerializeField] AudioManager audioManager;
+
     private Rigidbody controller;
     Animator playerAnimator;
 
@@ -33,6 +43,8 @@ public class TankControls : MonoBehaviour
         controller = GetComponent<Rigidbody>();
     }
 
+   
+
     private void Update()
     {
         float vertical = Input.GetAxis("Vertical");
@@ -40,8 +52,20 @@ public class TankControls : MonoBehaviour
 
         //Controls movement
         Cursor.lockState = CursorLockMode.Locked;
-        movement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
-        rotation = Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime;
+        bool isJogging = Input.GetKey(KeyCode.LeftShift) && Mathf.Abs(vertical) > 0.1f;
+        //float speed = isJogging ? jogSpeed : moveSpeed;
+        float baseSpeed = isJogging ? jogSpeed : moveSpeed;
+
+        if (vertical < 0)
+        {
+            baseSpeed *= 0.5f; // Cut speed in half when moving backward
+        }
+
+        movement = vertical * baseSpeed * Time.deltaTime;
+       
+        rotation = horizontal * rotateSpeed * Time.deltaTime;
+        //jogging = Input.GetKeyDown(KeyCode.LeftShift) * jogging * Time.deltaTime;
+
         rb = GetComponent<Rigidbody>();
 
         //float dpadHorizontal = Input.GetAxis("DPadHorizontal"); 
@@ -49,6 +73,16 @@ public class TankControls : MonoBehaviour
 
         //movement = dpadVertical * moveSpeed * Time.deltaTime;
         //rotation = dpadHorizontal * rotateSpeed * Time.deltaTime;
+
+        // --- Audio --- \\
+
+
+
+
+
+
+
+        // --- Audio --- \\
 
         // controls jump cooldown
         if (Time.time > nextJumpTime)
@@ -60,6 +94,11 @@ public class TankControls : MonoBehaviour
             }
 
         }
+
+
+
+
+
 
         bool isInput = Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f ||
                Mathf.Abs(Input.GetAxis("Horizontal")) > 0.1f ||
@@ -77,8 +116,12 @@ public class TankControls : MonoBehaviour
         }
 
         bool hasMovementInput = Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f;
+        bool isMovingBackwards = vertical < -0.1f;
+        bool isMovingForwards = vertical > 0.1f;
 
-        playerAnimator.SetBool("isWalking", hasMovementInput);
+        playerAnimator.SetBool("isWalkingBackwards", isMovingBackwards);
+        playerAnimator.SetBool("isWalking", isMovingForwards && !isJogging);
+
         playerAnimator.SetBool("isInput", hasMovementInput);
 
         // Update the Animator with the timer
@@ -87,7 +130,7 @@ public class TankControls : MonoBehaviour
 
 
 
-        //Animations
+        //Animations -------------------------------------------
 
         // Crouching
         //if (Input.GetKeyDown(KeyCode.C))
@@ -101,16 +144,29 @@ public class TankControls : MonoBehaviour
         // Animation logic
         bool walking = Mathf.Abs(vertical) > 0.1f;
         bool crouchWalking = isCrouching && walking;
+        bool Jogging = Input.GetKey(KeyCode.LeftShift) && walking;
 
         playerAnimator.SetBool("isWalking", walking && !isCrouching);
         playerAnimator.SetBool("isCrouching", isCrouching);
+        playerAnimator.SetBool("Jogging", isJogging);
         //playerAnimator.SetBool("isCrouchWalking", crouchWalking);
 
+        //Animations -------------------------------------------
 
-        //Animations
+        if (Input.GetKeyDown(KeyCode.LeftShift) && walking)
+        {
+            Jog();
+           
+        }
 
+    }
 
+    void Jog()
+    {
+        Debug.Log("srhsh");
 
+       
+        jogging = Input.GetAxis("Vertical") * jogSpeed * Time.deltaTime;
     }
 
     private void MonitorSpeed()
@@ -118,6 +174,8 @@ public class TankControls : MonoBehaviour
         Vector3 horizontalVelocity = new Vector3(controller.linearVelocity.x, 0, controller.linearVelocity.z);
         currentSpeed = horizontalVelocity.magnitude;
         //Debug.Log("Player Speed: " + currentSpeed);
+
+
     }
 
     private void LateUpdate()

@@ -6,14 +6,14 @@ public class InventoryManager : MonoBehaviour
 {
    public static InventoryManager Instance;
 
-    public List<AllItems> _InventoryItems = new List<AllItems>(); // our inventory items
+    public List<AllItems> _InventoryItems = new List<AllItems>(); //ur inventory items
 
     private void Awake()
     {
         Instance = this;
     }
 
-    public void AddItem(AllItems item) // add items to inventory 
+    public void AddItem(AllItems item) //add items to inventory 
     {
         if (!_InventoryItems.Contains(item))
         {
@@ -21,7 +21,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void RemoveItem(AllItems item) // remove items from inventory 
+    public void RemoveItem(AllItems item) //remove items from yo inventory 
     {
         if (_InventoryItems.Contains(item))
         {
@@ -29,7 +29,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public enum AllItems // all available inventory items in game
+    public enum AllItems //all available inventory items in game
     {
         KeyRed,
         KeyBlue,

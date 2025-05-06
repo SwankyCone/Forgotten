@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro; // If using TextMeshPro
+using TMPro; 
 using System.Collections;
 
 public class DialogueManager : MonoBehaviour
