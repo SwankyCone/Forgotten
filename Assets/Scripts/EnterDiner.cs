@@ -39,7 +39,7 @@ public class EnterDiner : MonoBehaviour, IInteractable
         {
             Cube.SetBool("DoorOpen", true);
             SceneManager.LoadScene("Diner");
-            audioManager.source.PlayOneShot(audioManager.doorUnlock);
+            //audioManager.source.PlayOneShot(audioManager.doorUnlock);
         }
 
         else
