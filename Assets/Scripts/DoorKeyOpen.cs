@@ -4,7 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class DoorDestory : MonoBehaviour, IInteractable
+public class DoorKeyOpen : MonoBehaviour, IInteractable
 {
     [SerializeField] InventoryManager.AllItems _requiredItem;
     [SerializeField] TMP_Text warningText;

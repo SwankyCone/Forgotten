@@ -12,6 +12,7 @@ public class LockControl : MonoBehaviour
     public GameObject oldCam;
     public GameObject lockBase;
 
+    [SerializeField] InventoryManager.AllItems _itemType;
 
     private void Start()
     {
@@ -21,8 +22,22 @@ public class LockControl : MonoBehaviour
         correctCombination = new int[] { 2, 7, 9, 1 };
         isOpened = false;
         Rotate.Rotated += CheckResults;
-
+        //closeLock();
+       
     }
+
+    public void closeLock()
+    {
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            oldCam.SetActive(true);
+            lockCam.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+      
+    }
+
 
     public void Interact()
     {
@@ -67,6 +82,7 @@ public class LockControl : MonoBehaviour
             //Cursor.lockState = CursorLockMode.Locked;
             //Destroy(transform);
             lockBase.SetActive(false);
+            InventoryManager.Instance.AddItem(_itemType);
         }
     }
 

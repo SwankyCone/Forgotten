@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using static Unity.VisualScripting.Member;
 
@@ -31,6 +32,7 @@ public class TankControls : MonoBehaviour
     public AudioClip Walk;
     public AudioClip Run;
     public AudioClip Swing;
+  
 
     [SerializeField] AudioManager audioManager;
 
@@ -162,7 +164,7 @@ public class TankControls : MonoBehaviour
 
     void Jog()
     {
-        Debug.Log("srhsh");
+        //Debug.Log("srhsh");
 
 
         jogging = Input.GetAxis("Vertical") * jogSpeed * Time.deltaTime;
@@ -190,6 +192,6 @@ public class TankControls : MonoBehaviour
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
 
-
+ 
 
 }

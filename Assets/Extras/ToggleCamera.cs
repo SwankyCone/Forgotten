@@ -7,19 +7,41 @@ public class ToggleCamera : MonoBehaviour, IInteractable
     Camera LockCam;
     public GameObject lockCam;
     public GameObject oldCam;
+    public bool lockCamActive = false;
 
 
     public void Interact()
     {
-
+       
         //Instantiate(LockCam);
         oldCam.SetActive(false);
         lockCam.SetActive(true);
+        lockCamActive = true;
 
         Debug.Log("Interact");
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("ddas");
+        }
+        
+
     }
+
+    public void Update()
+    {
+        if (lockCamActive == true && Input.GetKeyDown(KeyCode.Space))
+        {
+            oldCam.SetActive(true);
+            lockCam.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+
+        }
+    }
+
+  
 
    
    
