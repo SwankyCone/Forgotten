@@ -37,21 +37,28 @@ public class TankControls : MonoBehaviour
     private Rigidbody controller;
     Animator playerAnimator;
 
+    public bool isInteracting;
+
     public void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         playerAnimator = GetComponent<Animator>();
         controller = GetComponent<Rigidbody>();
     }
 
-   
+
 
     private void Update()
     {
+        if (isInteracting)
+            return;
+
+
         float vertical = Input.GetAxis("Vertical");
         float horizontal = Input.GetAxis("Horizontal");
 
         //Controls movement
-        Cursor.lockState = CursorLockMode.Locked;
+
         bool isJogging = Input.GetKey(KeyCode.LeftShift) && Mathf.Abs(vertical) > 0.1f;
         //float speed = isJogging ? jogSpeed : moveSpeed;
         float baseSpeed = isJogging ? jogSpeed : moveSpeed;
@@ -62,7 +69,6 @@ public class TankControls : MonoBehaviour
         }
 
         movement = vertical * baseSpeed * Time.deltaTime;
-       
         rotation = horizontal * rotateSpeed * Time.deltaTime;
         //jogging = Input.GetKeyDown(KeyCode.LeftShift) * jogging * Time.deltaTime;
 
@@ -79,9 +85,6 @@ public class TankControls : MonoBehaviour
 
 
 
-
-
-
         // --- Audio --- \\
 
         // controls jump cooldown
@@ -94,8 +97,6 @@ public class TankControls : MonoBehaviour
             }
 
         }
-
-
 
 
 
@@ -129,7 +130,6 @@ public class TankControls : MonoBehaviour
 
 
 
-
         //Animations -------------------------------------------
 
         // Crouching
@@ -156,7 +156,6 @@ public class TankControls : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && walking)
         {
             Jog();
-           
         }
 
     }
@@ -165,7 +164,7 @@ public class TankControls : MonoBehaviour
     {
         Debug.Log("srhsh");
 
-       
+
         jogging = Input.GetAxis("Vertical") * jogSpeed * Time.deltaTime;
     }
 
@@ -190,7 +189,6 @@ public class TankControls : MonoBehaviour
 
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
-
 
 
 

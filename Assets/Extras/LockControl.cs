@@ -10,16 +10,24 @@ public class LockControl : MonoBehaviour
     Camera LockCam;
     public GameObject lockCam;
     public GameObject oldCam;
+    public GameObject lockBase;
 
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        result = new int[]{0,0,0,0};
-        correctCombination = new int[] {2,7,9,1};
+        //Cursor.lockState = CursorLockMode.None;
+        //Cursor.visible = true;
+        result = new int[] { 0, 0, 0, 0 };
+        correctCombination = new int[] { 2, 7, 9, 1 };
         isOpened = false;
         Rotate.Rotated += CheckResults;
+
+    }
+
+    public void Interact()
+    {
+
+        oldCam.SetActive(false);
 
     }
 
@@ -45,7 +53,7 @@ public class LockControl : MonoBehaviour
         }
 
         if (result[0] == correctCombination[0] && result[1] == correctCombination[1]
-            && result[2] == correctCombination[2] && result[3] == correctCombination[3] && !isOpened)
+&& result[2] == correctCombination[2] && result[3] == correctCombination[3] && !isOpened)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
             isOpened = true;
@@ -53,9 +61,12 @@ public class LockControl : MonoBehaviour
 
             oldCam.SetActive(true);
             lockCam.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
             //Cursor.lockState = CursorLockMode.None;
             //Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
+            //Destroy(transform);
+            lockBase.SetActive(false);
         }
     }
 

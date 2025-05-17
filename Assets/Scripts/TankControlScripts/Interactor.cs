@@ -21,7 +21,7 @@ public class Interactor : MonoBehaviour
     //
 
     private Vector3 boxCenter;
-    public Vector3 boxHalfExtents = new Vector3(0.5f, 0.5f, 0.5f); 
+    public Vector3 boxHalfExtents = new Vector3(0.5f, 0.5f, 0.5f);
     private Quaternion boxOrientation;
     //private bool showDebugBox = false;
 
@@ -57,15 +57,14 @@ public class Interactor : MonoBehaviour
     }
 
     //private void OnDrawGizmos()
-   // {
-       // if (showDebugBox)
-       // {
-            //Gizmos.color = Color.green;
-            //Gizmos.matrix = Matrix4x4.TRS(boxCenter, boxOrientation, Vector3.one);
-           // Gizmos.DrawWireCube(Vector3.zero, boxHalfExtents * 2f); // Full extents
-       // }
+    // {
+    // if (showDebugBox)
+    // {
+    //Gizmos.color = Color.green;
+    //Gizmos.matrix = Matrix4x4.TRS(boxCenter, boxOrientation, Vector3.one);
+    // Gizmos.DrawWireCube(Vector3.zero, boxHalfExtents * 2f); // Full extents
+    // }
     //}
-
 
 
 }

@@ -6,49 +6,47 @@ using UnityEngine;
 
 public class DoorDestory : MonoBehaviour, IInteractable
 {
-    [SerializeField] InventoryManager.AllItems _requiredItem;
+    //[SerializeField] InventoryManager.AllItems _requiredItem;
     [SerializeField] TMP_Text warningText;
     [SerializeField] AudioManager audioManager;
 
+
+
+    private int[] result, correctCombination;
+    private bool isOpened;
+    public GameObject lockCam;
+    public GameObject oldCam;
+    public GameObject lockBase;
+
+
+
     Animator Cube;
     float warningDisplayTime = 3f;
-
-    public bool HasRequiredItem(InventoryManager.AllItems itemRequired)
+    public void Interact()
     {
-        if (InventoryManager.Instance._InventoryItems.Contains(itemRequired))
-        {
-            return true;
-        }
 
-        else
-        {
-            return false;
-        }
+        oldCam.SetActive(false);
+        lockCam.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
+
 
     public void Start()
     {
         Cube = GetComponent<Animator>();
+
+        //----\\
+
+        result = new int[] { 0, 0, 0, 0 };
+        correctCombination = new int[] { 2, 7, 9, 1 };
+        isOpened = false;
+        Rotate.Rotated += CheckResults;
+
+
     }
 
-    public void Interact()
-    {
-        if (HasRequiredItem(_requiredItem))
-        {
-            Cube.SetBool("DoorOpen", true);
-            //if (audioManager != null && audioManager.doorUnlock != null)
-
-            // hori audio controller
-                audioManager.source.PlayOneShot(audioManager.doorUnlock);
-        }
-
-        else
-        {
-            StartCoroutine(ShowWarningText());
-            //if (audioManager != null && audioManager.doorLocked != null)
-                audioManager.source.PlayOneShot(audioManager.doorLocked);
-        }
-    }
+   
 
     private IEnumerator ShowWarningText() // text pop up
     {
@@ -59,5 +57,53 @@ public class DoorDestory : MonoBehaviour, IInteractable
         warningText.gameObject.SetActive(false);
     }
 
-    
+
+
+    //-------\\
+
+
+    private void CheckResults(string wheelName, int number)
+    {
+        switch (wheelName)
+        {
+            case "WheelOne":
+                result[0] = number;
+                break;
+
+            case "WheelTwo":
+                result[1] = number;
+                break;
+
+            case "WheelThree":
+                result[2] = number;
+                break;
+
+            case "WheelFour":
+                result[3] = number;
+                break;
+        }
+
+        if (result[0] == correctCombination[0] && result[1] == correctCombination[1]
+&& result[2] == correctCombination[2] && result[3] == correctCombination[3] && !isOpened)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.3f, transform.position.z);
+            isOpened = true;
+            //Debug.Log("wrwr");
+
+            //oldCam.SetActive(true);
+            lockCam.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.None;
+            //Cursor.visible = true;
+            //Cursor.lockState = CursorLockMode.Locked;
+            //Destroy(transform);
+            lockBase.SetActive(false);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        Rotate.Rotated -= CheckResults;
+    }
+
 }
