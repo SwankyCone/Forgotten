@@ -36,10 +36,10 @@ public class TankControls : MonoBehaviour
 
     [SerializeField] AudioManager audioManager;
 
-    private Rigidbody controller;
+    public Rigidbody controller;
     Animator playerAnimator;
 
-    public bool isInteracting;
+    public bool isInteracting = false;
 
     public void Start()
     {
@@ -52,7 +52,7 @@ public class TankControls : MonoBehaviour
 
     private void Update()
     {
-        if (isInteracting)
+        if (isInteracting == true)
             return;
 
 

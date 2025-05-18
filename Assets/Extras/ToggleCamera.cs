@@ -5,7 +5,7 @@ using UnityEngine;
 public class ToggleCamera : MonoBehaviour, IInteractable
 {
     Camera LockCam;
-    public GameObject lockCam;
+    public GameObject toggledCameraCam;
     public GameObject oldCam;
     public bool lockCamActive = false;
 
@@ -15,7 +15,7 @@ public class ToggleCamera : MonoBehaviour, IInteractable
        
         //Instantiate(LockCam);
         oldCam.SetActive(false);
-        lockCam.SetActive(true);
+        toggledCameraCam.SetActive(true);
         lockCamActive = true;
 
         Debug.Log("Interact");
@@ -35,7 +35,8 @@ public class ToggleCamera : MonoBehaviour, IInteractable
         if (lockCamActive == true && Input.GetKeyDown(KeyCode.Space))
         {
             oldCam.SetActive(true);
-            lockCam.SetActive(false);
+            toggledCameraCam.SetActive(false);
+            lockCamActive = false;
             Cursor.lockState = CursorLockMode.Locked;
 
         }

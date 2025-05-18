@@ -4,6 +4,7 @@ public class BookInteraction : MonoBehaviour, IInteractable
 {
     public GameObject bookPrefab; // Assign your book prefab in the Inspector
     public Transform inspectPoint; // Assign the empty point in front of the camera
+   
 
     private GameObject currentBook;
     public bool activeBook;
@@ -12,7 +13,7 @@ public class BookInteraction : MonoBehaviour, IInteractable
     {
         if (activeBook == true && Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("space");
+            //Debug.Log("space");
             //bookPrefab.gameObject.SetActive(false);
             currentBook.gameObject.SetActive(false);
             activeBook = false;
@@ -22,18 +23,15 @@ public class BookInteraction : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-
-        if (currentBook == null)
+        Debug.Log("whiteboard");
+        if (activeBook == false)
         {
             ShowBook();
             activeBook = true;
             //closeBook();
         }
 
-        else
-        {
-            return;
-        }
+        
 
     }
 

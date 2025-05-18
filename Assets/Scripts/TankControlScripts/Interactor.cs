@@ -18,6 +18,8 @@ public class Interactor : MonoBehaviour
 
     private float nextInteractTime = 0f;
 
+    public bool isInteracting = false;
+
     //
 
     private Vector3 boxCenter;
@@ -49,6 +51,7 @@ public class Interactor : MonoBehaviour
                     {
                         interactObj.Interact();
                         nextInteractTime = Time.time + cooldownTime;
+                        isInteracting = true;
                     }
                 }
 
@@ -66,5 +69,5 @@ public class Interactor : MonoBehaviour
     // }
     //}
 
-
+    
 }
