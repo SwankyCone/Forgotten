@@ -22,10 +22,7 @@ public class ToggleCamera : MonoBehaviour, IInteractable
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Debug.Log("ddas");
-        }
+      
         
 
     }

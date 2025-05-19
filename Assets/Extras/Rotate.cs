@@ -11,6 +11,9 @@ public class Rotate : MonoBehaviour
 
     private int numberShown;
 
+    public AudioSource lockRotate;
+    [SerializeField] AudioManager audioManager;
+
     private void Start()
     {
         coroutineAllowed = true;
@@ -22,6 +25,7 @@ public class Rotate : MonoBehaviour
         if (coroutineAllowed)
         {
             StartCoroutine("RotateWheel");
+            audioManager.source.PlayOneShot(audioManager.lockRotate);
         }
     }
 

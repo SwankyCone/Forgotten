@@ -11,6 +11,7 @@ public class SoundManager : MonoBehaviour
     public AudioClip Walk;
     public AudioClip Run;
     public AudioClip Swing;
+    public AudioClip doorLocked;
 
 
     private void Start()
@@ -32,18 +33,18 @@ public class SoundManager : MonoBehaviour
 
     public void ChangeMusicVolume()
     {
-        AudioListener.volume = volumeSlider.value; // You might want to have this reflect only music volume if you're separating them.
+        AudioListener.volume = volumeSlider.value; 
         Save();
     }
 
     public void ChangeSoundEffectsVolume()
     {
-        // Assuming you have a method to update sound effects volume
-        // For example, you could call a method on an audio source that handles sound effects.
+     
         //source.PlayOneShot(Walk, soundEffectsSlider.value);
         //source.PlayOneShot(Run, soundEffectsSlider.value);
         //source.PlayOneShot(Swing, soundEffectsSlider.value);
         //source.PlayOneShot(Walk, soundEffectsSlider.value);
+        AudioListener.volume = soundEffectsSlider.value;
         Save();
     }
 

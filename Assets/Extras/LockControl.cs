@@ -13,6 +13,7 @@ public class LockControl : MonoBehaviour
     public GameObject lockBase;
 
     [SerializeField] InventoryManager.AllItems _itemType;
+    [SerializeField] AudioManager audioManager;
 
     private void Start()
     {
@@ -83,6 +84,7 @@ public class LockControl : MonoBehaviour
             //Destroy(transform);
             lockBase.SetActive(false);
             InventoryManager.Instance.AddItem(_itemType);
+            audioManager.source.PlayOneShot(audioManager.lockUnlock);
         }
     }
 

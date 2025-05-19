@@ -7,6 +7,8 @@ TagManager:
   - Interactable
   - FirstPerson
   - Padlock
+  - Grabable
+  - main camera
   layers:
   - Default
   - TransparentFX

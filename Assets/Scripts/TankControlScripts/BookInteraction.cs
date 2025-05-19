@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BookInteraction : MonoBehaviour, IInteractable
 {
-    public GameObject bookPrefab; // Assign your book prefab in the Inspector
-    public Transform inspectPoint; // Assign the empty point in front of the camera
+    public GameObject bookPrefab; 
+    public Transform inspectPoint; 
    
 
     private GameObject currentBook;
@@ -39,7 +39,7 @@ public class BookInteraction : MonoBehaviour, IInteractable
     void ShowBook()
     {
         currentBook = Instantiate(bookPrefab, inspectPoint.position, inspectPoint.rotation);
-        currentBook.transform.SetParent(inspectPoint); // Optional: attach to camera
+        currentBook.transform.SetParent(inspectPoint); 
 
 
     }

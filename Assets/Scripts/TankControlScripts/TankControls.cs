@@ -38,6 +38,7 @@ public class TankControls : MonoBehaviour
 
     public Rigidbody controller;
     Animator playerAnimator;
+    public float gravity = -9.81f;
 
     public bool isInteracting = false;
 
@@ -89,19 +90,6 @@ public class TankControls : MonoBehaviour
 
         // --- Audio --- \\
 
-        // controls jump cooldown
-        if (Time.time > nextJumpTime)
-        {
-            if (Input.GetButtonDown("Jump"))
-            {
-                Jump();
-                nextJumpTime = Time.time + cooldownTime;
-            }
-
-        }
-
-
-
 
         bool isInput = Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f ||
                Mathf.Abs(Input.GetAxis("Horizontal")) > 0.1f ||
@@ -127,7 +115,7 @@ public class TankControls : MonoBehaviour
 
         playerAnimator.SetBool("isInput", hasMovementInput);
 
-        // Update the Animator with the timer
+       
         playerAnimator.SetFloat("afkTime", idleTimer);
 
 
