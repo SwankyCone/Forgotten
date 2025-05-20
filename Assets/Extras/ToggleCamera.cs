@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ToggleCamera : MonoBehaviour, IInteractable
@@ -8,7 +9,7 @@ public class ToggleCamera : MonoBehaviour, IInteractable
     public GameObject toggledCameraCam;
     public GameObject oldCam;
     public bool lockCamActive = false;
-
+    [SerializeField] TMP_Text closeItemText;
 
     public void Interact()
     {
@@ -22,8 +23,9 @@ public class ToggleCamera : MonoBehaviour, IInteractable
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-      
-        
+        closeItemText.text = "Space To Close";
+        closeItemText.gameObject.SetActive(true);
+
 
     }
 
@@ -35,6 +37,7 @@ public class ToggleCamera : MonoBehaviour, IInteractable
             toggledCameraCam.SetActive(false);
             lockCamActive = false;
             Cursor.lockState = CursorLockMode.Locked;
+            closeItemText.gameObject.SetActive(false);
 
         }
     }

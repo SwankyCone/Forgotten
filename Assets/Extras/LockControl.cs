@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class LockControl : MonoBehaviour
@@ -14,6 +15,7 @@ public class LockControl : MonoBehaviour
 
     [SerializeField] InventoryManager.AllItems _itemType;
     [SerializeField] AudioManager audioManager;
+    [SerializeField] TMP_Text closeItemText;
 
     private void Start()
     {
@@ -85,6 +87,7 @@ public class LockControl : MonoBehaviour
             lockBase.SetActive(false);
             InventoryManager.Instance.AddItem(_itemType);
             audioManager.source.PlayOneShot(audioManager.lockUnlock);
+            closeItemText.gameObject.SetActive(false);
         }
     }
 

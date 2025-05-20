@@ -1,3 +1,6 @@
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class BookInteraction : MonoBehaviour, IInteractable
@@ -8,6 +11,7 @@ public class BookInteraction : MonoBehaviour, IInteractable
 
     private GameObject currentBook;
     public bool activeBook;
+    [SerializeField] TMP_Text closeItemText;
 
     public void Update()
     {
@@ -17,6 +21,7 @@ public class BookInteraction : MonoBehaviour, IInteractable
             //bookPrefab.gameObject.SetActive(false);
             currentBook.gameObject.SetActive(false);
             activeBook = false;
+            closeItemText.gameObject.SetActive(false);
 
         }
     }
@@ -39,11 +44,12 @@ public class BookInteraction : MonoBehaviour, IInteractable
     void ShowBook()
     {
         currentBook = Instantiate(bookPrefab, inspectPoint.position, inspectPoint.rotation);
-        currentBook.transform.SetParent(inspectPoint); 
-
+        currentBook.transform.SetParent(inspectPoint);
+        closeItemText.text = "Space To Close";
+        closeItemText.gameObject.SetActive(true);
 
     }
 
+  
 
- 
 }
