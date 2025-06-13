@@ -161,7 +161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3134149840887191782, guid: bbb9fa10efd4ac6469f8dd931b4ebc9e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.87
+      value: 21.64
       objectReference: {fileID: 0}
     - target: {fileID: 3134149840887191782, guid: bbb9fa10efd4ac6469f8dd931b4ebc9e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1679,6 +1679,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteractRange: 5
   cooldownTime: 2
+  isInteracting: 0
+  boxHalfExtents: {x: 0.5, y: 0.5, z: 0.5}
 --- !u!4 &1596320969 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3134149840887191782, guid: bbb9fa10efd4ac6469f8dd931b4ebc9e, type: 3}
