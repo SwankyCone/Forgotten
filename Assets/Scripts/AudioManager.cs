@@ -5,6 +5,8 @@ public class AudioManager : MonoBehaviour
     public AudioSource source;
     public AudioSource padLock;
     public AudioSource ExtraDoor;
+    public AudioSource paper;
+    public AudioSource key1;
     //public AudioSource player;
     public AudioClip doorLocked;
     public AudioClip doorUnlock;
@@ -15,7 +17,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip Swing;
     public AudioClip lockRotate;
     public AudioClip lockUnlock;
-
+    public AudioClip paperGrab;
+    public AudioClip keyGrab;
     // Update is called once per frame
     void Update()
     {

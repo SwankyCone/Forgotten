@@ -16,6 +16,8 @@ public class OpenDoor : MonoBehaviour, IInteractable
         Debug.Log("hll");
         Cube.SetBool("DoorOpen", true);
         audioManager.ExtraDoor.PlayOneShot(audioManager.doorUnlock);
+
+
     }
 
    

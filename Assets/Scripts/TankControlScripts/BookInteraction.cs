@@ -12,6 +12,7 @@ public class BookInteraction : MonoBehaviour, IInteractable
     private GameObject currentBook;
     public bool activeBook;
     [SerializeField] TMP_Text closeItemText;
+    [SerializeField] AudioManager audioManager;
 
     public void Update()
     {
@@ -22,6 +23,7 @@ public class BookInteraction : MonoBehaviour, IInteractable
             currentBook.gameObject.SetActive(false);
             activeBook = false;
             closeItemText.gameObject.SetActive(false);
+            audioManager.paper.PlayOneShot(audioManager.paperGrab);
 
         }
     }
@@ -33,6 +35,7 @@ public class BookInteraction : MonoBehaviour, IInteractable
         {
             ShowBook();
             activeBook = true;
+            audioManager.source.PlayOneShot(audioManager.paperGrab);
             //closeBook();
         }
 
