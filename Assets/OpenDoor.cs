@@ -5,7 +5,7 @@ using UnityEngine;
 public class OpenDoor : MonoBehaviour, IInteractable
 {
     Animator Cube;
-   
+    [SerializeField] AudioManager audioManager;
 
     public void Start()
     {
@@ -15,6 +15,7 @@ public class OpenDoor : MonoBehaviour, IInteractable
     {
         Debug.Log("hll");
         Cube.SetBool("DoorOpen", true);
+        audioManager.ExtraDoor.PlayOneShot(audioManager.doorUnlock);
     }
 
    

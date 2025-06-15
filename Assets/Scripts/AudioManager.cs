@@ -3,6 +3,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public AudioSource source;
+    public AudioSource padLock;
+    public AudioSource ExtraDoor;
     //public AudioSource player;
     public AudioClip doorLocked;
     public AudioClip doorUnlock;

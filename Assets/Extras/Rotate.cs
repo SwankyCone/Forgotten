@@ -25,7 +25,7 @@ public class Rotate : MonoBehaviour
         if (coroutineAllowed)
         {
             StartCoroutine("RotateWheel");
-            audioManager.source.PlayOneShot(audioManager.lockRotate);
+            audioManager.padLock.PlayOneShot(audioManager.lockRotate);
         }
     }
 

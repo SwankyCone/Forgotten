@@ -19,6 +19,7 @@ public class PlayerAudioManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             player.PlayOneShot(Walk);
+            
         }
 
         if (Input.GetKeyUp(KeyCode.W))
