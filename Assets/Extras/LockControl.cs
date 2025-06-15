@@ -22,7 +22,7 @@ public class LockControl : MonoBehaviour
         //Cursor.lockState = CursorLockMode.None;
         //Cursor.visible = true;
         result = new int[] { 0, 0, 0, 0 };
-        correctCombination = new int[] { 2, 7, 9, 1 };
+        correctCombination = new int[] { 5, 3, 4, 8 };
         isOpened = false;
         Rotate.Rotated += CheckResults;
         //closeLock();
