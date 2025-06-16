@@ -2671,7 +2671,7 @@ MonoBehaviour:
 
     Interact : E
 
-    Jog : Left Shift'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c37095677124774295c0ac39aab73ab, type: 2}
   m_sharedMaterial: {fileID: -7991547917478434310, guid: 2c37095677124774295c0ac39aab73ab, type: 2}
@@ -2767,7 +2767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &973149934
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5500,7 +5500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2130956759
 RectTransform:
   m_ObjectHideFlags: 0

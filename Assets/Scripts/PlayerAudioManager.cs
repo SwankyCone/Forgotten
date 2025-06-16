@@ -27,5 +27,7 @@ public class PlayerAudioManager : MonoBehaviour
             player.Stop();
             isWalking = false;
         }
+
+
     }
 }

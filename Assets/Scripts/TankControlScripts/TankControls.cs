@@ -62,7 +62,7 @@ public class TankControls : MonoBehaviour
 
         //Controls movement
 
-        bool isJogging = Input.GetKey(KeyCode.LeftShift) && Mathf.Abs(vertical) > 0.1f;
+        bool isJogging = Input.GetKey(KeyCode.P) && Mathf.Abs(vertical) > 0.1f;
         //float speed = isJogging ? jogSpeed : moveSpeed;
         float baseSpeed = isJogging ? jogSpeed : moveSpeed;
 
@@ -134,19 +134,19 @@ public class TankControls : MonoBehaviour
         // Animation logic
         bool walking = Mathf.Abs(vertical) > 0.1f;
         bool crouchWalking = isCrouching && walking;
-        bool Jogging = Input.GetKey(KeyCode.LeftShift) && walking;
+        //bool Jogging = Input.GetKey(KeyCode.LeftShift) && walking;
 
         playerAnimator.SetBool("isWalking", walking && !isCrouching);
         playerAnimator.SetBool("isCrouching", isCrouching);
-        playerAnimator.SetBool("Jogging", isJogging);
+        //playerAnimator.SetBool("Jogging", isJogging);
         //playerAnimator.SetBool("isCrouchWalking", crouchWalking);
 
         //Animations -------------------------------------------
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && walking)
-        {
-            Jog();
-        }
+        //if (Input.GetKeyDown(KeyCode.LeftShift) && walking)
+        //{
+           // Jog();
+        //}
 
     }
 
