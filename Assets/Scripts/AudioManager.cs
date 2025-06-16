@@ -7,6 +7,8 @@ public class AudioManager : MonoBehaviour
     public AudioSource ExtraDoor;
     public AudioSource paper;
     public AudioSource key1;
+    public AudioSource storageKey;
+    public AudioSource officeKey;
     //public AudioSource player;
     public AudioClip doorLocked;
     public AudioClip doorUnlock;

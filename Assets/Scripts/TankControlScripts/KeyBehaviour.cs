@@ -1,19 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class KeyBehaviour : MonoBehaviour, IInteractable
 {
     [SerializeField] InventoryManager.AllItems _itemType;
     [SerializeField] AudioManager audioManager;
+    [SerializeField] TMP_Text warningText;
+    float warningDisplayTime = 3f;
 
 
     public void Interact()
     {
-        audioManager.key1.PlayOneShot(audioManager.keyGrab);
-        Debug.Log("fff");
+        audioManager.storageKey.PlayOneShot(audioManager.keyGrab);
+        //Debug.Log("fff");
+        StartCoroutine(ShowWarningText());
         InventoryManager.Instance.AddItem(_itemType);
-        Destroy(gameObject);
+        //Destroy(gameObject);
+        //gameObject.SetActive(false);
+        GetComponent<MeshRenderer>().enabled = false;
     }
 
     private void OnTriggerEnter(Collider collision)
@@ -25,4 +31,13 @@ public class KeyBehaviour : MonoBehaviour, IInteractable
         }
     }
 
+    private IEnumerator ShowWarningText() // text pop up
+    {
+        // change this to change text
+        warningText.text = "Key Collected";
+        warningText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(warningDisplayTime);
+        warningText.gameObject.SetActive(false);
+
+    }
 }
