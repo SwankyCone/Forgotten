@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b068912d88d63cd49a4ca6327c47467a
+guid: 550bbb034d6141f40b2ee3fec2e4243c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,53 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: BlackSteel
-    second: {fileID: 2100000, guid: 45b040a8c31f9ca4b82f3d8716c5bbd5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Concrete
-    second: {fileID: 2100000, guid: 697478f3d3cf0c94fa5a8baea9426c10, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Glass
-    second: {fileID: 2100000, guid: da8ca035a4f2cf44b90b7d2b06b6dad8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: OfficeBasicWall
-    second: {fileID: 2100000, guid: 09649d5502f208a418e062c6be5659fc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: OfficeFloor
-    second: {fileID: 2100000, guid: 85a30581fc72111428c06d772ff7fe8e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: OfficeInsideWalls
-    second: {fileID: 2100000, guid: 204614934f3504e4d8bbae07644cccb1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: OfficeOutsideWalls
-    second: {fileID: 2100000, guid: b66962486d2b78543be850111c2312b9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: OfficeRoof
-    second: {fileID: 2100000, guid: 9513858da6707a04281c675fe2c403ed, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: OfficeUpperFloor
-    second: {fileID: 2100000, guid: cf8e12ac31644e845b2f9d46561bb1cf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: StairWood
-    second: {fileID: 2100000, guid: 7ce3d024a6d5fe84ab03cf8312c9790d, type: 2}
+      name: Rope
+    second: {fileID: 2100000, guid: cfceed2a7ef1dcb41bd439e8746456cb, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -96,7 +51,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
