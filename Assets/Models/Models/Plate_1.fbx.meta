@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9745261657f48be4686072b6898143a3
+guid: 1c9a3cc6d1ca90b4ea1a5f7f44d8be07
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Dinerfloor
-    second: {fileID: 2100000, guid: 4e671e1a1a5fd50499c19c8f511bf442, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: doors
-    second: {fileID: 2100000, guid: baa9ef1c055090e4e8de802123dbdb9a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: fba15f5b0c6fff642b7bc818dade0bf5, type: 2}
+      name: Plate_1
+    second: {fileID: 2100000, guid: 0607cffb0fce63849be92bbc17976134, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

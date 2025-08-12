@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9745261657f48be4686072b6898143a3
+guid: ce2da5ae4eb1a38418b4241c96415560
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Dinerfloor
-    second: {fileID: 2100000, guid: 4e671e1a1a5fd50499c19c8f511bf442, type: 2}
+      name: Napkin_Rubber_
+    second: {fileID: 2100000, guid: fdae6b77125f15b47881100cf2dc64f9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: doors
-    second: {fileID: 2100000, guid: baa9ef1c055090e4e8de802123dbdb9a, type: 2}
+      name: Napkin_Steel
+    second: {fileID: 2100000, guid: 9d6ceae4e26a03e4b878172c9a006d1d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: fba15f5b0c6fff642b7bc818dade0bf5, type: 2}
+      name: Napkin_Wrap
+    second: {fileID: 2100000, guid: 81cd16f9eb1866948af5e4264d91a635, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Napkins
+    second: {fileID: 2100000, guid: 212acba18661b0b4189c4d8f1dd8e613, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
