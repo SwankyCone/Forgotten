@@ -96,8 +96,8 @@ MonoBehaviour:
       maxEnvLightsOnScreen: 32
       reflectionCacheCompressed: 1
       reflectionProbeFormat: 74
-      reflectionProbeTexCacheSize: 4096
-      reflectionProbeTexLastValidCubeMip: 3
+      reflectionProbeTexCacheSize: 536875008
+      reflectionProbeTexLastValidCubeMip: 6
       reflectionProbeTexLastValidPlanarMip: 0
       reflectionProbeDecreaseResToFit: 1
       skyReflectionSize: 1024
