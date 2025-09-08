@@ -1738,6 +1738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c982b4abe5924f4899bfc7417dd857d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
 --- !u!95 &114370870
 Animator:
   serializedVersion: 7
@@ -9153,6 +9154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c982b4abe5924f4899bfc7417dd857d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
 --- !u!95 &547442463
 Animator:
   serializedVersion: 7
@@ -24299,6 +24301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c982b4abe5924f4899bfc7417dd857d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
 --- !u!95 &1494029275
 Animator:
   serializedVersion: 7
@@ -25966,6 +25969,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _itemType: 0
+  audioManager: {fileID: 0}
+  warningText: {fileID: 0}
 --- !u!4 &1562409983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 78055d2c460fc7b45b2822938acf93fd, type: 3}
@@ -37988,6 +37993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c982b4abe5924f4899bfc7417dd857d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioManager: {fileID: 0}
 --- !u!95 &2123976499
 Animator:
   serializedVersion: 7
