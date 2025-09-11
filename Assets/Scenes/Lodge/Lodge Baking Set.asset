@@ -39,29 +39,29 @@ MonoBehaviour:
   cellDescs:
     m_Keys: 0000000004000000
     m_Values:
-    - position: {x: -4, y: 0, z: -1}
+    - position: {x: -3, y: 0, z: -1}
       index: 0
-      probeCount: 640
+      probeCount: 576
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 10
+      bricksCount: 9
       indirectionEntryInfo:
-      - positionInBricks: {x: -108, y: 0, z: -27}
+      - positionInBricks: {x: -81, y: 0, z: -27}
         minSubdiv: 0
         minBrickPos: {x: 0, y: 0, z: 0}
         maxBrickPosPlusOne: {x: 28, y: 28, z: 28}
         hasMinMax: 1
         hasOnlyBiggerBricks: 0
-    - position: {x: -4, y: 0, z: 0}
+    - position: {x: -3, y: 0, z: 0}
       index: 4
-      probeCount: 1024
+      probeCount: 960
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 1
-      bricksCount: 16
+      bricksCount: 15
       indirectionEntryInfo:
-      - positionInBricks: {x: -108, y: 0, z: 0}
+      - positionInBricks: {x: -81, y: 0, z: 0}
         minSubdiv: 0
         minBrickPos: {x: 0, y: 0, z: 0}
         maxBrickPosPlusOne: {x: 28, y: 28, z: 28}
@@ -86,7 +86,7 @@ MonoBehaviour:
     m_Keys:
     - Default
     m_Values:
-    - sceneHash: -1640453226
+    - sceneHash: 785628007
       cellDataAsset:
         m_AssetGUID: 167dc0871f048a8468c6f0b69eb77696
         m_StreamableAssetPath: APVStreamingAssets\f37bb2d4f96f06f4a96c4dc64a2e2b8c\167dc0871f048a8468c6f0b69eb77696.bytes
@@ -131,9 +131,9 @@ MonoBehaviour:
       m_Keys: 0000000004000000
       m_Values:
       - offset: 0
-        elementCount: 10
-      - offset: 160
-        elementCount: 16
+        elementCount: 9
+      - offset: 144
+        elementCount: 15
     m_Asset: {fileID: 0}
   cellSupportDataAsset:
     m_AssetGUID: 042df02a9f720364b8c3be7b2cbf9071
@@ -148,10 +148,10 @@ MonoBehaviour:
         elementCount: 1
     m_Asset: {fileID: 0}
   chunkSizeInBricks: 128
-  maxCellPosition: {x: -3, y: 1, z: 1}
-  minCellPosition: {x: -4, y: 0, z: -1}
+  maxCellPosition: {x: -2, y: 1, z: 1}
+  minCellPosition: {x: -3, y: 0, z: -1}
   globalBounds:
-    m_Center: {x: -283.5, y: 40.5, z: 0}
+    m_Center: {x: -202.5, y: 40.5, z: 0}
     m_Extent: {x: 40.5, y: 40.5, z: 81}
   bakedSimplificationLevels: 3
   bakedMinDistanceBetweenProbes: 1
@@ -205,5 +205,5 @@ MonoBehaviour:
     - hasProbeVolume: 1
       bakeScene: 1
       bounds:
-        m_Center: {x: -283.5, y: 40.5, z: 0}
+        m_Center: {x: -202.5, y: 40.5, z: 0}
         m_Extent: {x: 40.5, y: 40.5, z: 81}
