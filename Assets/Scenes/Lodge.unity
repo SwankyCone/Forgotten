@@ -1488,7 +1488,7 @@ Transform:
   m_GameObject: {fileID: 198627036}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -108.482, y: -5.465, z: 10.47}
+  m_LocalPosition: {x: -108.064, y: -3.693, z: 10.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1646,8 +1646,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 79.57747
+  m_Color: {r: 1, g: 0.7978242, b: 0.5801887, a: 1}
+  m_Intensity: 477.4648
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -1691,8 +1691,8 @@ Light:
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 4816
-  m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: NaN}
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 7.269853e+31, y: 9.596064e+11, z: 7.3982314e+31, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -1970,7 +1970,7 @@ ParticleSystem:
   m_GameObject: {fileID: 297980804}
   serializedVersion: 8
   lengthInSec: 5
-  simulationSpeed: 1
+  simulationSpeed: 2
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -2044,7 +2044,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 3
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -6693,7 +6693,7 @@ Transform:
   m_GameObject: {fileID: 297980804}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -173.92851, y: 22.4, z: 0}
+  m_LocalPosition: {x: -173.92851, y: 15.76, z: 0}
   m_LocalScale: {x: 0.16031, y: 0.16031, z: 0.16031}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7518,7 +7518,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
@@ -7560,12 +7560,12 @@ GameObject:
   - component: {fileID: 517937081}
   - component: {fileID: 517937080}
   m_Layer: 0
-  m_Name: Particle System (1)
+  m_Name: ChimneySmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &517937080
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -7615,7 +7615,7 @@ ParticleSystemRenderer:
   m_MeshDistribution: 0
   m_SortMode: 0
   m_MinParticleSize: 0
-  m_MaxParticleSize: 3
+  m_MaxParticleSize: 1
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
   m_LengthScale: 2
@@ -7726,7 +7726,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 20
+      scalar: 8.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -13333,7 +13333,7 @@ Transform:
   m_GameObject: {fileID: 736896412}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -106.541, y: -6.222, z: 15.497}
+  m_LocalPosition: {x: -106.541, y: -6.416, z: 15.802}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13492,7 +13492,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 318.30988
+  m_Intensity: 397.88736
   m_Range: 1000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -13536,8 +13536,8 @@ Light:
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 4248
-  m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.8470776e+25, y: 2.4842242e+27, z: 2.643945e+20, w: 1.8176805e+31}
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 7.8e-43, y: 4.9e-44, z: 0, w: -2.2106091e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -14160,7 +14160,7 @@ Transform:
   m_GameObject: {fileID: 814625336}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -179.2505, y: 6.809, z: 0.292}
+  m_LocalPosition: {x: -184.38, y: 6.809, z: 9.62}
   m_LocalScale: {x: 1, y: 1.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14484,7 +14484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 59a11bc3d412ee24db052120127f9a90, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 59a11bc3d412ee24db052120127f9a90, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14628,7 +14628,7 @@ Transform:
   m_GameObject: {fileID: 1144222201}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -101.819, y: -5.465, z: 10.47}
+  m_LocalPosition: {x: -101.578, y: -3.6929998, z: 10.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14786,8 +14786,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 79.57747
+  m_Color: {r: 1, g: 0.7978242, b: 0.5801887, a: 1}
+  m_Intensity: 477.4648
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -14831,8 +14831,8 @@ Light:
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 4816
-  m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.8178666e+31, y: 1.8523599e+28, z: 223.42578, w: 4.398788e+21}
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: 0, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -16147,7 +16147,7 @@ Transform:
   m_GameObject: {fileID: 1486426236}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -101.053, y: -6.22, z: 5.345}
+  m_LocalPosition: {x: -100.049, y: -6.538, z: 5.345}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16306,7 +16306,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 318.30988
+  m_Intensity: 397.88736
   m_Range: 1000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -16350,8 +16350,8 @@ Light:
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 4248
-  m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 7.16e-43, y: 0, z: 0, w: 0}
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 9.1835e-41, y: 1.2519018e-36, z: 9.78048e-39, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -16547,6 +16547,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1606777026
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 80.56157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 80.56157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80.56157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -171.64851
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.75
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_Name
+      value: Lodge_Final
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a47fe92caebb8164aacf5f086031826a, type: 3}
 --- !u!1 &1618958353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 31efcbe15451e7a47a0e50e6a4801bb3, type: 3}
@@ -17377,33 +17454,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 392.47607
-    'sh[ 1]': 226.17528
-    'sh[ 2]': -24.797112
-    'sh[ 3]': 212.48767
-    'sh[ 4]': 82.64698
-    'sh[ 5]': 6.4129024
-    'sh[ 6]': -13.116928
-    'sh[ 7]': 1.058424
-    'sh[ 8]': -14.021284
-    'sh[ 9]': 219.72154
-    'sh[10]': 143.36829
-    'sh[11]': -11.613295
-    'sh[12]': 125.7001
-    'sh[13]': 49.78681
-    'sh[14]': 2.2133393
-    'sh[15]': -7.8419976
-    'sh[16]': -0.064780734
-    'sh[17]': -8.001656
-    'sh[18]': 103.39989
-    'sh[19]': 76.39839
-    'sh[20]': -4.2991085
-    'sh[21]': 62.787167
-    'sh[22]': 25.320967
-    'sh[23]': 0.3167117
-    'sh[24]': -3.9598641
-    'sh[25]': -0.3856501
-    'sh[26]': -3.855514
+    'sh[ 0]': 2563.3105
+    'sh[ 1]': 1809.4993
+    'sh[ 2]': -70.421646
+    'sh[ 3]': 1472.3556
+    'sh[ 4]': 555.3714
+    'sh[ 5]': 23.334728
+    'sh[ 6]': -106.83887
+    'sh[ 7]': -11.432827
+    'sh[ 8]': -112.047295
+    'sh[ 9]': 1054.9015
+    'sh[10]': 785.0277
+    'sh[11]': -26.558855
+    'sh[12]': 626.8317
+    'sh[13]': 238.07104
+    'sh[14]': 7.584144
+    'sh[15]': -45.295963
+    'sh[16]': -5.4454966
+    'sh[17]': -50.671875
+    'sh[18]': 335.8491
+    'sh[19]': 263.03195
+    'sh[20]': -7.09884
+    'sh[21]': 200.76993
+    'sh[22]': 78.13445
+    'sh[23]': 1.6859499
+    'sh[24]': -14.66939
+    'sh[25]': -1.6631154
+    'sh[26]': -17.230705
   m_SHValidForCapturePosition: {x: -172.14352, y: 7.373, z: -1.0819998}
   m_SHValidForSourcePosition: {x: -172.14352, y: 7.373, z: -1.0819998}
   m_HDProbeVersion: 9
@@ -18746,3 +18823,4 @@ SceneRoots:
   - {fileID: 1089353903}
   - {fileID: 297980807}
   - {fileID: 517937082}
+  - {fileID: 1606777026}
