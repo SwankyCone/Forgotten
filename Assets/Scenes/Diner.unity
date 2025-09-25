@@ -404,8 +404,8 @@ Transform:
   m_GameObject: {fileID: 25815916}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.68, y: -8.43, z: 0.02}
-  m_LocalScale: {x: 27.829432, y: 1.1673056, z: 27.829432}
+  m_LocalPosition: {x: 3.68, y: -0.86, z: 0.02}
+  m_LocalScale: {x: 232.7292, y: -0.02641843, z: 232.7292}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2529,6 +2529,79 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &230203593
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 116.392334
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 116.392334
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 116.392334
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_Name
+      value: Diner
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2824aff310e4a34c908ad8f4b7d4cd2, type: 3}
 --- !u!1001 &251648660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2755,7 +2828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 2
-  size: {x: 30.82943, y: 7.8330364, z: 30.829432}
+  size: {x: 235.7292, y: 8.6310625, z: 235.7292}
   overrideRendererFilters: 0
   minRendererVolumeSize: 0.1
   objectLayerMask:
@@ -2773,16 +2846,16 @@ MonoBehaviour:
     e10: 0
     e11: 1
     e12: 0
-    e13: -2.2361345
+    e13: -1.9423218
     e20: 0
     e21: 0
     e22: 1
-    e23: -0.020000458
+    e23: -0.019996643
     e30: 0
     e31: 0
     e32: 0
     e33: 1
-  cachedHashCode: -1506079385
+  cachedHashCode: -764578118
   fillEmptySpaces: 0
   version: 2
   globalVolume: 0
@@ -2795,7 +2868,7 @@ Transform:
   m_GameObject: {fileID: 281123066}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 149.1604, y: -12.375766, z: 11.622457}
+  m_LocalPosition: {x: 149.1604, y: -12.669579, z: 11.622453}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3095,34 +3168,34 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 10270.215
-    'sh[ 1]': 5955.3706
-    'sh[ 2]': 1570.5443
-    'sh[ 3]': -1882.311
-    'sh[ 4]': -293.814
-    'sh[ 5]': 774.04626
-    'sh[ 6]': -170.46762
-    'sh[ 7]': -60.80514
-    'sh[ 8]': -452.61108
-    'sh[ 9]': 12536.114
-    'sh[10]': 7595.9346
-    'sh[11]': 1917.3387
-    'sh[12]': -2247.1438
-    'sh[13]': -366.40515
-    'sh[14]': 908.0085
-    'sh[15]': -208.5451
-    'sh[16]': -70.68924
-    'sh[17]': -576.5669
-    'sh[18]': 10130.029
-    'sh[19]': 6396.8765
-    'sh[20]': 1579.4554
-    'sh[21]': -1812.9872
-    'sh[22]': -310.48456
-    'sh[23]': 742.6039
-    'sh[24]': -171.42583
-    'sh[25]': -53.05
-    'sh[26]': -468.0257
-  m_SHValidForCapturePosition: {x: 3.19, y: 2.267, z: 5.28}
+    'sh[ 0]': 31601.691
+    'sh[ 1]': 15162.759
+    'sh[ 2]': 20992.582
+    'sh[ 3]': 1683.1316
+    'sh[ 4]': 199.39833
+    'sh[ 5]': 4161.0386
+    'sh[ 6]': 888.9851
+    'sh[ 7]': 1264.155
+    'sh[ 8]': -763.93115
+    'sh[ 9]': 39281.387
+    'sh[10]': 19199.908
+    'sh[11]': 26418.467
+    'sh[12]': 2238.024
+    'sh[13]': 252.40593
+    'sh[14]': 5207.5747
+    'sh[15]': 1126.368
+    'sh[16]': 1591.247
+    'sh[17]': -948.91364
+    'sh[18]': 32441.525
+    'sh[19]': 16000.18
+    'sh[20]': 21862.709
+    'sh[21]': 1852.9896
+    'sh[22]': 199.40497
+    'sh[23]': 4295.13
+    'sh[24]': 927.48926
+    'sh[25]': 1311.7521
+    'sh[26]': -788.5265
+  m_SHValidForCapturePosition: {x: 3.1900024, y: 2.2670002, z: 5.2799997}
   m_SHValidForSourcePosition: {x: 3.1900024, y: 2.2670002, z: 5.2799997}
   m_HDProbeVersion: 9
   m_ObsoleteInfiniteProjection: 1
@@ -4815,7 +4888,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7224546, g: 0.8018868, b: 0.7362689, a: 1}
-  m_Intensity: 107.42958
+  m_Intensity: 79.57747
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -4854,13 +4927,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 5569
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.588e-42, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 7e-43, y: 6.6e-44, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -5209,7 +5282,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7224546, g: 0.8018868, b: 0.7362689, a: 1}
-  m_Intensity: 107.42958
+  m_Intensity: 79.57747
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -5248,13 +5321,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 5569
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: NaN, y: 0, z: NaN, w: 8}
+  m_BoundingSphereOverride: {x: 7e-43, y: 6.6e-44, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -5472,7 +5545,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &561119601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7607,8 +7680,8 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
 --- !u!114 &835345470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7801,13 +7874,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
   m_ColorTemperature: 8566
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 10.353554}
+  m_BoundingSphereOverride: {x: -3.59e-43, y: 0, z: 0, w: 2.3510604e-38}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -9429,7 +9502,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7224546, g: 0.8018868, b: 0.7362689, a: 1}
-  m_Intensity: 107.42958
+  m_Intensity: 79.57747
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -9468,13 +9541,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 5569
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 3.4940106e-20, y: 3.397975e-39, z: 8.785e-42, w: 1e-45}
+  m_BoundingSphereOverride: {x: -1.09e-42, y: NaN, z: 2.1e-44, w: 4.5918e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -10078,7 +10151,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7224546, g: 0.8018868, b: 0.7362689, a: 1}
-  m_Intensity: 107.42958
+  m_Intensity: 79.57747
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -10117,13 +10190,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 5569
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.3555911e-19, y: 1.7086692e+19, z: 4.544966e+30, w: 6.7415293e+22}
+  m_BoundingSphereOverride: {x: 4.5242402e+21, y: 15.27476, z: 4.4165845e+21, w: 4.742887e+30}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -10195,6 +10268,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 70abbf50f65eb5449a864ffac38b76ee, type: 3}
       propertyPath: m_Name
       value: DinerWIthExtras
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70abbf50f65eb5449a864ffac38b76ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 70abbf50f65eb5449a864ffac38b76ee, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12694,34 +12771,34 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 8953.103
-    'sh[ 1]': 4745.3447
-    'sh[ 2]': -676.03754
-    'sh[ 3]': 4108.5117
-    'sh[ 4]': 1045.5176
-    'sh[ 5]': -46.59068
-    'sh[ 6]': -118.71775
-    'sh[ 7]': -57.971302
-    'sh[ 8]': -273.6869
-    'sh[ 9]': 11199.827
-    'sh[10]': 5954.0522
-    'sh[11]': -789.2463
-    'sh[12]': 5168.1733
-    'sh[13]': 1281.533
-    'sh[14]': -49.934883
-    'sh[15]': -156.43434
-    'sh[16]': -50.25769
-    'sh[17]': -358.09668
-    'sh[18]': 9043.5205
-    'sh[19]': 5059.433
-    'sh[20]': -638.8936
-    'sh[21]': 4229.8506
-    'sh[22]': 1066.3209
-    'sh[23]': -42.821106
-    'sh[24]': -128.3519
-    'sh[25]': -36.98852
-    'sh[26]': -284.97617
-  m_SHValidForCapturePosition: {x: -3.81, y: 2.267, z: 5.28}
+    'sh[ 0]': 28075.7
+    'sh[ 1]': 8916.073
+    'sh[ 2]': 2550.3586
+    'sh[ 3]': 17695.025
+    'sh[ 4]': 2374.791
+    'sh[ 5]': 404.8197
+    'sh[ 6]': 24.453306
+    'sh[ 7]': 1480.9829
+    'sh[ 8]': 677.5412
+    'sh[ 9]': 35063.61
+    'sh[10]': 11292.489
+    'sh[11]': 3217.0398
+    'sh[12]': 22256.8
+    'sh[13]': 2966.6921
+    'sh[14]': 515.75464
+    'sh[15]': 33.456284
+    'sh[16]': 1867.2019
+    'sh[17]': 859.3193
+    'sh[18]': 28992.287
+    'sh[19]': 9454.686
+    'sh[20]': 2632.7068
+    'sh[21]': 18454.697
+    'sh[22]': 2455.8596
+    'sh[23]': 424.3811
+    'sh[24]': 24.801878
+    'sh[25]': 1536.0164
+    'sh[26]': 708.91174
+  m_SHValidForCapturePosition: {x: -3.8099976, y: 2.2670002, z: 5.2799997}
   m_SHValidForSourcePosition: {x: -3.8099976, y: 2.2670002, z: 5.2799997}
   m_HDProbeVersion: 9
   m_ObsoleteInfiniteProjection: 1
@@ -15693,7 +15770,6 @@ Transform:
   - {fileID: 1317977773}
   - {fileID: 583638940}
   - {fileID: 2031431805}
-  - {fileID: 2099287196}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1525635906
@@ -16148,7 +16224,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7224546, g: 0.8018868, b: 0.7362689, a: 1}
-  m_Intensity: 107.42958
+  m_Intensity: 79.57747
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -16187,13 +16263,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 5569
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.7086692e+19, y: 4.544966e+30, z: 6.7415293e+22, w: 7.144935e+31}
+  m_BoundingSphereOverride: {x: 3.2e-44, y: NaN, z: 2.1e-44, w: 4.5918e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -17470,6 +17546,7 @@ Transform:
   - {fileID: 1013661265}
   - {fileID: 1881098600}
   - {fileID: 1400105334}
+  - {fileID: 2099287196}
   - {fileID: 835345472}
   - {fileID: 1851874657}
   - {fileID: 281123068}
@@ -22916,7 +22993,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7224546, g: 0.8018868, b: 0.7362689, a: 1}
-  m_Intensity: 107.42958
+  m_Intensity: 79.57747
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -22955,13 +23032,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 5569
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.7106247e-20, y: 4.59283e-40, z: 7.396e-42, w: 0}
+  m_BoundingSphereOverride: {x: 3.2e-44, y: NaN, z: 2.1e-44, w: 4.5918e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -23316,7 +23393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1838117216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24272,34 +24349,34 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 11315.683
-    'sh[ 1]': 8083.5234
-    'sh[ 2]': 473.93628
-    'sh[ 3]': 482.50278
-    'sh[ 4]': 187.574
-    'sh[ 5]': -176.96812
-    'sh[ 6]': -85.00566
-    'sh[ 7]': 14.335456
-    'sh[ 8]': -684.70105
-    'sh[ 9]': 13951.402
-    'sh[10]': 10059.544
-    'sh[11]': 677.81696
-    'sh[12]': 557.9356
-    'sh[13]': 216.30273
-    'sh[14]': -220.34381
-    'sh[15]': -130.54832
-    'sh[16]': 31.257656
-    'sh[17]': -861.27203
-    'sh[18]': 11491.656
-    'sh[19]': 8276.362
-    'sh[20]': 573.5796
-    'sh[21]': 448.3057
-    'sh[22]': 179.39104
-    'sh[23]': -176.72264
-    'sh[24]': -111.22858
-    'sh[25]': 28.788475
-    'sh[26]': -714.10236
-  m_SHValidForCapturePosition: {x: 3.19, y: 2.267, z: -1.601}
+    'sh[ 0]': 42441.293
+    'sh[ 1]': 22936.404
+    'sh[ 2]': -527.0016
+    'sh[ 3]': 9043.643
+    'sh[ 4]': 2313.6272
+    'sh[ 5]': -168.12907
+    'sh[ 6]': 4005.4106
+    'sh[ 7]': -322.01083
+    'sh[ 8]': -1911.963
+    'sh[ 9]': 53122.207
+    'sh[10]': 28612.78
+    'sh[11]': -498.5458
+    'sh[12]': 11397.676
+    'sh[13]': 2876.2297
+    'sh[14]': -130.7557
+    'sh[15]': 5030.3555
+    'sh[16]': -370.67395
+    'sh[17]': -2380.2864
+    'sh[18]': 44008.457
+    'sh[19]': 23741.65
+    'sh[20]': -397.6835
+    'sh[21]': 9414.531
+    'sh[22]': 2381.429
+    'sh[23]': -99.179245
+    'sh[24]': 4146.5093
+    'sh[25]': -303.60376
+    'sh[26]': -1991.9565
+  m_SHValidForCapturePosition: {x: 3.1900024, y: 2.2670002, z: -1.6009998}
   m_SHValidForSourcePosition: {x: 3.1900024, y: 2.2670002, z: -1.6009998}
   m_HDProbeVersion: 9
   m_ObsoleteInfiniteProjection: 1
@@ -24870,34 +24947,34 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 8458.9375
-    'sh[ 1]': 4681.6484
-    'sh[ 2]': 800.1103
-    'sh[ 3]': 3492.5764
-    'sh[ 4]': 968.8151
-    'sh[ 5]': 93.38279
-    'sh[ 6]': -72.02141
-    'sh[ 7]': 95.15564
-    'sh[ 8]': -308.9024
-    'sh[ 9]': 10623.646
-    'sh[10]': 5930.4595
-    'sh[11]': 1003.5412
-    'sh[12]': 4430.6914
-    'sh[13]': 1197.2498
-    'sh[14]': 122.92505
-    'sh[15]': -88.865944
-    'sh[16]': 118.01874
-    'sh[17]': -391.84406
-    'sh[18]': 8606.611
-    'sh[19]': 5026.999
-    'sh[20]': 817.0603
-    'sh[21]': 3636.115
-    'sh[22]': 992.3621
-    'sh[23]': 103.72497
-    'sh[24]': -70.12892
-    'sh[25]': 95.37837
-    'sh[26]': -312.66864
-  m_SHValidForCapturePosition: {x: -3.81, y: 2.267, z: -1.601}
+    'sh[ 0]': 27017.688
+    'sh[ 1]': 9039.357
+    'sh[ 2]': -345.01468
+    'sh[ 3]': 15791.738
+    'sh[ 4]': 2145.7693
+    'sh[ 5]': -105.86055
+    'sh[ 6]': 295.20172
+    'sh[ 7]': -315.71878
+    'sh[ 8]': 438.41022
+    'sh[ 9]': 33835.043
+    'sh[10]': 11402.672
+    'sh[11]': -468.4073
+    'sh[12]': 19883.371
+    'sh[13]': 2680.5554
+    'sh[14]': -133.71652
+    'sh[15]': 375.33575
+    'sh[16]': -410.61154
+    'sh[17]': 560.99457
+    'sh[18]': 28008.906
+    'sh[19]': 9530.809
+    'sh[20]': -378.16412
+    'sh[21]': 16483.732
+    'sh[22]': 2220.98
+    'sh[23]': -108.55603
+    'sh[24]': 310.48395
+    'sh[25]': -336.94876
+    'sh[26]': 461.28864
+  m_SHValidForCapturePosition: {x: -3.8099976, y: 2.2670002, z: -1.6009998}
   m_SHValidForSourcePosition: {x: -3.8099976, y: 2.2670002, z: -1.6009998}
   m_HDProbeVersion: 9
   m_ObsoleteInfiniteProjection: 1
@@ -25609,7 +25686,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7224546, g: 0.8018868, b: 0.7362689, a: 1}
-  m_Intensity: 107.42958
+  m_Intensity: 79.57747
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -25648,13 +25725,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 5569
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: -1.07278054e-10}
+  m_BoundingSphereOverride: {x: 7e-43, y: 8e-44, z: 0, w: 4.3e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -27271,7 +27348,7 @@ Transform:
   m_GameObject: {fileID: 2099287195}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 128.73135, y: -8.680389, z: 19.1205}
+  m_LocalPosition: {x: 124.44028, y: -8.393494, z: 29.66146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27283,7 +27360,7 @@ Transform:
   - {fileID: 2131647322}
   - {fileID: 1076498651}
   - {fileID: 1461499076}
-  m_Father: {fileID: 1525478409}
+  m_Father: {fileID: 1736441157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2101202578 stripped
 Transform:
@@ -27844,7 +27921,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 0.7224546, g: 0.8018868, b: 0.7362689, a: 1}
-  m_Intensity: 107.42958
+  m_Intensity: 79.57747
   m_Range: 3000
   m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
@@ -27883,13 +27960,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 2
   m_ColorTemperature: 5569
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.1708395e-19, y: 3.0972774e+27, z: 5.215818e-20, w: 4.775551e-39}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 2.75508e-40, w: -7.61e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -28033,3 +28110,4 @@ SceneRoots:
   - {fileID: 1808737734}
   - {fileID: 1986789329}
   - {fileID: 998127806}
+  - {fileID: 230203593}
