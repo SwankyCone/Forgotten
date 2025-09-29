@@ -3640,7 +3640,7 @@ MonoBehaviour:
     cubeResolution:
       m_Override: 128
       m_UseOverride: 0
-      m_Level: 0
+      m_Level: 1
     cameraSettings:
       customRenderingSettings: 0
       renderingPathCustomFrameSettings:
@@ -3842,33 +3842,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 26386.89
-    'sh[ 1]': 14121.473
-    'sh[ 2]': -3890.8152
-    'sh[ 3]': 13228.824
-    'sh[ 4]': 5424.215
-    'sh[ 5]': -884.60754
-    'sh[ 6]': -727.37134
-    'sh[ 7]': 381.0559
-    'sh[ 8]': -1772.0153
-    'sh[ 9]': 32434.16
-    'sh[10]': 17467.88
-    'sh[11]': -4959.9385
-    'sh[12]': 16376.698
-    'sh[13]': 6655.5986
-    'sh[14]': -1240.6315
-    'sh[15]': -929.14105
-    'sh[16]': 488.94168
-    'sh[17]': -2225.9937
-    'sh[18]': 26060.865
-    'sh[19]': 14080.666
-    'sh[20]': -4022.0574
-    'sh[21]': 13182.057
-    'sh[22]': 5336.393
-    'sh[23]': -1041.2389
-    'sh[24]': -748.1693
-    'sh[25]': 371.54358
-    'sh[26]': -1811.8967
+    'sh[ 0]': 22950.686
+    'sh[ 1]': 12615.841
+    'sh[ 2]': -1265.4032
+    'sh[ 3]': 11101.064
+    'sh[ 4]': 3367.2258
+    'sh[ 5]': -122.87292
+    'sh[ 6]': -766.87714
+    'sh[ 7]': 57.666332
+    'sh[ 8]': -1617.5092
+    'sh[ 9]': 28397.2
+    'sh[10]': 15794.608
+    'sh[11]': -1526.2667
+    'sh[12]': 13847.914
+    'sh[13]': 4202.506
+    'sh[14]': -187.86728
+    'sh[15]': -968.07556
+    'sh[16]': 105.09621
+    'sh[17]': -2051.7742
+    'sh[18]': 22847.686
+    'sh[19]': 12760.791
+    'sh[20]': -1243.7554
+    'sh[21]': 11188.67
+    'sh[22]': 3376.0964
+    'sh[23]': -159.16263
+    'sh[24]': -777.54895
+    'sh[25]': 65.220085
+    'sh[26]': -1684.6141
   m_SHValidForCapturePosition: {x: -3.7992153, y: 1.011756, z: 4.8452024}
   m_SHValidForSourcePosition: {x: -3.7992153, y: 1.011756, z: 4.8452024}
   m_HDProbeVersion: 9
@@ -5878,7 +5878,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &561119601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6439,84 +6439,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2071325329}
   m_SourcePrefab: {fileID: 100100000, guid: c17cdf0d35695b040acc070282e125ac, type: 3}
---- !u!1001 &624973307
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1525478409}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5.6291513
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5.6291513
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.6291513
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 149.558
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -14.273796
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_Name
-      value: Diner_Counter_Dirty (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
---- !u!4 &624973308 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c9359edd135da804aa59ba21eb8ab6d9, type: 3}
-  m_PrefabInstance: {fileID: 624973307}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &628287941
 GameObject:
   m_ObjectHideFlags: 0
@@ -7130,7 +7052,7 @@ MonoBehaviour:
     cubeResolution:
       m_Override: 128
       m_UseOverride: 0
-      m_Level: 0
+      m_Level: 1
     cameraSettings:
       customRenderingSettings: 0
       renderingPathCustomFrameSettings:
@@ -7332,33 +7254,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 13115.807
-    'sh[ 1]': 9222.551
-    'sh[ 2]': -3667.7988
-    'sh[ 3]': 1223.5497
-    'sh[ 4]': 1314.625
-    'sh[ 5]': -2326.8757
-    'sh[ 6]': -491.2283
-    'sh[ 7]': 54.78474
-    'sh[ 8]': -1888.4891
-    'sh[ 9]': 16005.834
-    'sh[10]': 11526.766
-    'sh[11]': -4491.301
-    'sh[12]': 1482.3369
-    'sh[13]': 1491.0197
-    'sh[14]': -2804.1426
-    'sh[15]': -597.63995
-    'sh[16]': 196.83589
-    'sh[17]': -2351.1711
-    'sh[18]': 12887.3545
-    'sh[19]': 9331.461
-    'sh[20]': -3657.241
-    'sh[21]': 1221.131
-    'sh[22]': 1206.7114
-    'sh[23]': -2273.2693
-    'sh[24]': -480.12582
-    'sh[25]': 159.81654
-    'sh[26]': -1905.3096
+    'sh[ 0]': 14096.9375
+    'sh[ 1]': 9161.452
+    'sh[ 2]': -3570.2363
+    'sh[ 3]': 3930.238
+    'sh[ 4]': 1516.1619
+    'sh[ 5]': -2785.0457
+    'sh[ 6]': -554.5446
+    'sh[ 7]': -128.89925
+    'sh[ 8]': -2025.3208
+    'sh[ 9]': 17604.982
+    'sh[10]': 11455.606
+    'sh[11]': -4493.5337
+    'sh[12]': 4929.5566
+    'sh[13]': 1924.3873
+    'sh[14]': -3495.3804
+    'sh[15]': -692.69604
+    'sh[16]': -173.97575
+    'sh[17]': -2530.361
+    'sh[18]': 14212.309
+    'sh[19]': 9257.411
+    'sh[20]': -3671.292
+    'sh[21]': 4012.9077
+    'sh[22]': 1585.9467
+    'sh[23]': -2846.921
+    'sh[24]': -558.94586
+    'sh[25]': -150.80945
+    'sh[26]': -2050.835
   m_SHValidForCapturePosition: {x: -3.7992153, y: 0.9467633, z: -7.274926}
   m_SHValidForSourcePosition: {x: -3.7992153, y: 0.9467633, z: -7.274926}
   m_HDProbeVersion: 9
@@ -7760,7 +7682,7 @@ MonoBehaviour:
     cubeResolution:
       m_Override: 128
       m_UseOverride: 0
-      m_Level: 0
+      m_Level: 1
     cameraSettings:
       customRenderingSettings: 0
       renderingPathCustomFrameSettings:
@@ -7962,33 +7884,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 29551.19
-    'sh[ 1]': 17096.426
-    'sh[ 2]': 1651.418
-    'sh[ 3]': 2708.7761
-    'sh[ 4]': 1079.1589
-    'sh[ 5]': -713.78253
-    'sh[ 6]': -580.18787
-    'sh[ 7]': 57.897274
-    'sh[ 8]': -1055.7683
-    'sh[ 9]': 36406.82
-    'sh[10]': 21126.137
-    'sh[11]': 1818.7003
-    'sh[12]': 3634.02
-    'sh[13]': 1414.7109
-    'sh[14]': -946.58075
-    'sh[15]': -744.52905
-    'sh[16]': -1.6869591
-    'sh[17]': -1335.0273
-    'sh[18]': 29325.408
-    'sh[19]': 17030.53
-    'sh[20]': 1428.7585
-    'sh[21]': 3045.2864
-    'sh[22]': 1180.074
-    'sh[23]': -777.56573
-    'sh[24]': -606.0193
-    'sh[25]': -12.4768
-    'sh[26]': -1082.679
+    'sh[ 0]': 29174.674
+    'sh[ 1]': 16928.201
+    'sh[ 2]': 1498.4382
+    'sh[ 3]': 2840.2852
+    'sh[ 4]': 1109.2482
+    'sh[ 5]': -748.1463
+    'sh[ 6]': -591.68036
+    'sh[ 7]': 0.4317239
+    'sh[ 8]': -1069.4409
+    'sh[ 9]': 36328.81
+    'sh[10]': 21091.256
+    'sh[11]': 1794.5345
+    'sh[12]': 3667.4597
+    'sh[13]': 1422.355
+    'sh[14]': -951.9965
+    'sh[15]': -746.2681
+    'sh[16]': -14.094038
+    'sh[17]': -1338.4974
+    'sh[18]': 29318.715
+    'sh[19]': 17027.535
+    'sh[20]': 1426.3514
+    'sh[21]': 3047.8833
+    'sh[22]': 1180.6677
+    'sh[23]': -778.1059
+    'sh[24]': -606.19696
+    'sh[25]': -13.519624
+    'sh[26]': -1082.9487
   m_SHValidForCapturePosition: {x: 8.030157, y: 0.94323945, z: -7.203334}
   m_SHValidForSourcePosition: {x: 8.030157, y: 0.94323945, z: -7.203334}
   m_HDProbeVersion: 9
@@ -8396,6 +8318,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &697911954
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 24.699106
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25.242485
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 25.368452
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.298
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.628
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.975
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_Name
+      value: DIner_StraightCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ababb6de9d5cbd40b19499e99300ccf, type: 3}
 --- !u!4 &702471948 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f24e14f3b2ba4614e908f571ce630719, type: 3}
@@ -17329,7 +17324,7 @@ MonoBehaviour:
     cubeResolution:
       m_Override: 128
       m_UseOverride: 0
-      m_Level: 0
+      m_Level: 1
     cameraSettings:
       customRenderingSettings: 0
       renderingPathCustomFrameSettings:
@@ -17531,33 +17526,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 19657.748
-    'sh[ 1]': 10620.972
-    'sh[ 2]': 1929.8867
-    'sh[ 3]': 8862.559
-    'sh[ 4]': 4720.2397
-    'sh[ 5]': 1540.9373
-    'sh[ 6]': -583.482
-    'sh[ 7]': 2065.7678
-    'sh[ 8]': -111.32288
-    'sh[ 9]': 24423.424
-    'sh[10]': 13194.121
-    'sh[11]': 2385.2969
-    'sh[12]': 11027.689
-    'sh[13]': 5849.1323
-    'sh[14]': 1894.9564
-    'sh[15]': -721.5719
-    'sh[16]': 2555.9983
-    'sh[17]': -143.92632
-    'sh[18]': 19541.344
-    'sh[19]': 10588.421
-    'sh[20]': 1894.584
-    'sh[21]': 8885.202
-    'sh[22]': 4690.7036
-    'sh[23]': 1512.7562
-    'sh[24]': -577.4439
-    'sh[25]': 2027.5422
-    'sh[26]': -130.9346
+    'sh[ 0]': 19953.277
+    'sh[ 1]': 10791.71
+    'sh[ 2]': 2531.229
+    'sh[ 3]': 8001.309
+    'sh[ 4]': 7054.386
+    'sh[ 5]': 1972.8337
+    'sh[ 6]': -995.3751
+    'sh[ 7]': 1676.0902
+    'sh[ 8]': -677.57965
+    'sh[ 9]': 24825.295
+    'sh[10]': 13459.654
+    'sh[11]': 3175.8271
+    'sh[12]': 9986.5205
+    'sh[13]': 8768.973
+    'sh[14]': 2461.0796
+    'sh[15]': -1235.0641
+    'sh[16]': 2089.2014
+    'sh[17]': -847.5159
+    'sh[18]': 19787.898
+    'sh[19]': 10773.812
+    'sh[20]': 2536.6917
+    'sh[21]': 8016.9365
+    'sh[22]': 6988.967
+    'sh[23]': 1950.6432
+    'sh[24]': -975.78345
+    'sh[25]': 1661.5168
+    'sh[26]': -696.2982
   m_SHValidForCapturePosition: {x: 7.0533924, y: 1.0576763, z: 4.8452024}
   m_SHValidForSourcePosition: {x: 7.0533924, y: 1.0576763, z: 4.8452024}
   m_HDProbeVersion: 9
@@ -17860,7 +17855,6 @@ Transform:
   - {fileID: 1223421817}
   - {fileID: 1495168234}
   - {fileID: 880336255}
-  - {fileID: 624973308}
   - {fileID: 1327745889}
   - {fileID: 903023209}
   - {fileID: 702471948}
@@ -30082,3 +30076,4 @@ SceneRoots:
   - {fileID: 648064653}
   - {fileID: 671998327}
   - {fileID: 592680287}
+  - {fileID: 697911954}
