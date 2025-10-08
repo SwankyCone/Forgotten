@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b4b89c70110d7644a998b01e0a69fee
+guid: 713f2c6594e82f84a9f1f5d6fbf8dded
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Diner_Bigshelf
-    second: {fileID: 2100000, guid: c473f61effc318a44a59bf03277f1d5b, type: 2}
+      name: Diner_Freezerbase
+    second: {fileID: 2100000, guid: 6dcf32cf4eac33249bd962cb9d1be7da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Diner_FridgeClear
+    second: {fileID: 2100000, guid: 5746d1c92f856c54c9702cfa081ded28, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

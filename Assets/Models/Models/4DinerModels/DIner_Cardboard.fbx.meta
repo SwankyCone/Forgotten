@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b4b89c70110d7644a998b01e0a69fee
+guid: 61feb42f9bb898d439a27ceacec857a2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Diner_Bigshelf
-    second: {fileID: 2100000, guid: c473f61effc318a44a59bf03277f1d5b, type: 2}
+      name: Diner_Cardboard
+    second: {fileID: 2100000, guid: 6a68815d5dd5ff740b6d9a4de5af8ae1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
