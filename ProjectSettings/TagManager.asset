@@ -9,6 +9,7 @@ TagManager:
   - Padlock
   - Grabable
   - main camera
+  - MenuText
   layers:
   - Default
   - TransparentFX

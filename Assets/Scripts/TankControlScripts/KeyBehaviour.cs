@@ -13,7 +13,7 @@ public class KeyBehaviour : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        audioManager.storageKey.PlayOneShot(audioManager.keyGrab);
+        //audioManager.storageKey.PlayOneShot(audioManager.keyGrab);
         //Debug.Log("fff");
         StartCoroutine(ShowWarningText());
         InventoryManager.Instance.AddItem(_itemType);
