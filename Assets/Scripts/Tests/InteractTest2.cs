@@ -1,11 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿#if UNITY_EDITOR
 using UnityEngine;
+using UnityEditor;
 
-public class InteractTest2 : MonoBehaviour, IInteractable
+public class RemoveMissingScripts : EditorWindow
 {
-  public void Interact()
+    [MenuItem("Tools/Cleanup/Remove Missing Scripts in Scene")]
+    static void RemoveMissingScriptsInScene()
     {
-        Debug.Log(Random.Range(0, 100));
+        int totalRemoved = 0;
+        foreach (GameObject go in GameObject.FindObjectsOfType<GameObject>(true))
+        {
+            int removed = GameObjectUtility.RemoveMonoBehavioursWithMissingScript(go);
+            if (removed > 0)
+                totalRemoved += removed;
+        }
+
+        Debug.Log($"✅ Removed {totalRemoved} missing script components from the open scene.");
     }
 }
+#endif

@@ -21,6 +21,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip lockUnlock;
     public AudioClip paperGrab;
     public AudioClip keyGrab;
+    public AudioClip Static;
     // Update is called once per frame
     void Update()
     {

@@ -2,35 +2,31 @@ using UnityEngine;
 
 public class MoveMainMenuCamera : MonoBehaviour
 {
-    [Header("Camera Positions")]
-    public Transform mainMenuPos;
-    public Transform clockPos;
-
-    [Header("Movement Settings")]
+    
+    public Transform mainMenuCam;
+    public Transform clockCam;
+   
     public float moveSpeed = 2f;
     public float rotateSpeed = 2f;
 
-    private Transform target;
-   
+    private Transform cameraPosition;
 
     void Start()
     {
-        target = mainMenuPos;
-        transform.position = mainMenuPos.position;
-        transform.rotation = mainMenuPos.rotation;
+        cameraPosition = mainMenuCam;
+        transform.position = mainMenuCam.position;
+        transform.rotation = mainMenuCam.rotation;
     }
 
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, target.position, Time.deltaTime * moveSpeed);
-            transform.rotation = Quaternion.Slerp(transform.rotation, target.rotation, Time.deltaTime * rotateSpeed);
+        transform.position = Vector3.Lerp(transform.position, cameraPosition.position, Time.deltaTime * moveSpeed);
+            transform.rotation = Quaternion.Slerp(transform.rotation, cameraPosition.rotation, Time.deltaTime * rotateSpeed);
     }
-
 
     public void MoveToClock()
     {
-        target = clockPos;
-        
+        cameraPosition = clockCam;
     }
 
   
