@@ -5,6 +5,9 @@ using System.Collections;
 
 public class SceneFader : MonoBehaviour
 {
+    // NOT MADE BY ME 
+
+
     public static SceneFader Instance;
     public Image fadeImage;
     public float fadeDuration = 1f;

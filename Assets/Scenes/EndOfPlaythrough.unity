@@ -379,7 +379,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is the end of the current state of my game. i hope you enjoyed
+  m_text: This is the end please restart the game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2c37095677124774295c0ac39aab73ab, type: 2}
   m_sharedMaterial: {fileID: -7991547917478434310, guid: 2c37095677124774295c0ac39aab73ab, type: 2}

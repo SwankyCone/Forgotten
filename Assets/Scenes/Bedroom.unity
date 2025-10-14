@@ -2113,7 +2113,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 2100000, guid: ec7075dc269b1a84eb898f810742dddc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3476,6 +3476,7 @@ MonoBehaviour:
   lockUnlock: {fileID: 0}
   paperGrab: {fileID: 0}
   keyGrab: {fileID: 0}
+  Static: {fileID: 0}
 --- !u!114 &752116562
 MonoBehaviour:
   m_ObjectHideFlags: 0
