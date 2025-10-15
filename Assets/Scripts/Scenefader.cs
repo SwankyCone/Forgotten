@@ -62,6 +62,7 @@ public class SceneFader : MonoBehaviour
 
     private IEnumerator FadeIn()
     {
+
         float t = 0;
         while (t < fadeDuration)
         {
@@ -71,4 +72,5 @@ public class SceneFader : MonoBehaviour
             yield return null;
         }
     }
+
 }
