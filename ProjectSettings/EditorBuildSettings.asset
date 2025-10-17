@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3D_MainMenu.unity
     guid: ca8e4f81c1ffb534abde4887a6874845
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Office.unity
     guid: 3c5f85fafb75bc242a260eb296aec99e
   - enabled: 1
@@ -29,7 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Diner.unity
     guid: 1740d4de159b7cd4bbd4dad4da7e9b41
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lodge.unity
     guid: e022119c082c6f74a918fecdd4e2f4ea
   - enabled: 1

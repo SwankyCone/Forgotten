@@ -38,7 +38,7 @@ public class EnterDiner : MonoBehaviour, IInteractable
         if (HasRequiredItem(_requiredItem))
         {
             Cube.SetBool("DoorOpen", true);
-            SceneManager.LoadScene("EndOfPlaythrough");
+            SceneFader.Instance.FadeToScene("Diner_Base_Scene");
             //audioManager.source.PlayOneShot(audioManager.doorUnlock);
         }
 
