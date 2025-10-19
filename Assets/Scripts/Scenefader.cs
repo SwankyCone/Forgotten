@@ -11,6 +11,7 @@ public class SceneFader : MonoBehaviour
     public static SceneFader Instance;
     public Image fadeImage;
     public float fadeDuration = 1f;
+    public GameObject canvas;
 
     private void Awake()
     {
@@ -57,6 +58,7 @@ public class SceneFader : MonoBehaviour
             yield return null;
         }
 
+       
         SceneManager.LoadScene(sceneName);
     }
 
