@@ -80,14 +80,6 @@ public class DialogueManager : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    IEnumerator OpenDialogue()
-    {
-        yield return new WaitForSeconds(0.3f);
-        dialogueText.text = "";
-        instructionText.text = "";
-        dialogueBackground.SetActive(false); 
-        gameObject.SetActive(false);
-    }
 
    
 }
