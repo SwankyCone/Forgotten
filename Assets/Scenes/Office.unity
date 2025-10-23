@@ -14628,6 +14628,7 @@ MonoBehaviour:
   paperGrab: {fileID: 0}
   keyGrab: {fileID: 0}
   Static: {fileID: 0}
+  Static2: {fileID: 0}
 --- !u!114 &298667622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72339,14 +72340,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.078431375}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.019607844}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 776554e464ece26469cb0a2f9f750025, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -73004,7 +73005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1619527544
 AudioSource:
   m_ObjectHideFlags: 0
@@ -87230,6 +87231,7 @@ MonoBehaviour:
   paperGrab: {fileID: 8300000, guid: 51994c5429668ac40ab7c345c4a16653, type: 3}
   keyGrab: {fileID: 8300000, guid: 5a30d5a918b86b141bb4d78b4f194c41, type: 3}
   Static: {fileID: 0}
+  Static2: {fileID: 0}
 --- !u!4 &1986216392 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6aea44251290cef4f8dd17da323eb018, type: 3}

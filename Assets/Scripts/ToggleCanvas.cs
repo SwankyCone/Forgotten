@@ -5,6 +5,7 @@ public class ToggleCanvas : MonoBehaviour
 {
    // public Transform Canvas;
     public GameObject Canvas;
+    public GameObject buttontoggles;
     public GameObject Text;
     private MoveMainMenuCamera camMove;
     // public bool Canvass = false;
@@ -26,6 +27,7 @@ public class ToggleCanvas : MonoBehaviour
         camMove.MoveToClock();
 
         Canvas.SetActive(true);
+        buttontoggles.SetActive(true);
         Destroy(Text);
     }
 }

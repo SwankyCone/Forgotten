@@ -1,3 +1,4 @@
+using PadlockSystem;
 using UnityEngine;
 
 public class ActivateButtonLights : MonoBehaviour
@@ -5,11 +6,12 @@ public class ActivateButtonLights : MonoBehaviour
 
     public GameObject dimLight;
     public GameObject brightLight;
+    [SerializeField] AudioManager audioManager;
     public void OnMouseEnter()
     {
         //Debug.Log("bright light");
         spawnBrightLight();
-
+        audioManager.source.PlayOneShot(audioManager.Static2);
     }
 
     public void OnMouseExit() 

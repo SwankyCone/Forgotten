@@ -7,6 +7,7 @@ using UnityEngine.UIElements;
 public class LoadNextScene : MonoBehaviour
 {
     public GameObject canvas;
+
     public void LoadScene()
     {
         //SceneManager.LoadScene(" Scene 1 ");
