@@ -1222,7 +1222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1792191554}
-  typingSpeed: 0.05
+  typingSpeed: 0.06
   typingSound: {fileID: 1928748003}
 --- !u!4 &1928748002
 Transform:

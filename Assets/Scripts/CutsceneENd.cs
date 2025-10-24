@@ -15,5 +15,6 @@ public class CutsceneENd : MonoBehaviour
     {
         yield return new WaitForSeconds(delayBeforeLoad);
         SceneManager.LoadScene(nextSceneName);
+        
     }
 }

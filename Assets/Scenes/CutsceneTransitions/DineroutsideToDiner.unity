@@ -1150,7 +1150,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: You know what happened here sophie
+            m_StringArgument: What did your boss do to you
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1206,7 +1206,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Do you love us...
+            m_StringArgument: Come home, we can take care of this
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1928748001

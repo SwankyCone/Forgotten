@@ -12,8 +12,10 @@ public class PlayerAudioManager : MonoBehaviour
         // Start walking sound
         if (Input.GetKeyDown(KeyCode.W))
         {
+            
             if (!isWalking)
             {
+                
                 player.clip = Walk;
                 player.loop = true;
                 player.Play();

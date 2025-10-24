@@ -9,6 +9,7 @@ public class KeyBehaviour : MonoBehaviour, IInteractable
     [SerializeField] AudioManager audioManager;
     [SerializeField] TMP_Text warningText;
     float warningDisplayTime = 3f;
+    public GameObject particle;
 
 
     public void Interact()
@@ -17,6 +18,7 @@ public class KeyBehaviour : MonoBehaviour, IInteractable
         //Debug.Log("fff");
         StartCoroutine(ShowWarningText());
         InventoryManager.Instance.AddItem(_itemType);
+        particle.SetActive(false);
         //Destroy(gameObject);
         //gameObject.SetActive(false);
         GetComponent<MeshRenderer>().enabled = false;
