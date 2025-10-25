@@ -14,6 +14,7 @@ public class LoadNextScene : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Destroy(canvas);
         //Cursor.visible = false;
+
     }
 
     public void QuitGame()
