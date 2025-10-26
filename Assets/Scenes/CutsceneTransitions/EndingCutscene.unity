@@ -119,6 +119,59 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &172774489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 172774491}
+  - component: {fileID: 172774490}
+  m_Layer: 0
+  m_Name: finaldirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &172774490
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172774489}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 904183228994334489ef662c44296d4e, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 3042197404826702865, guid: 904183228994334489ef662c44296d4e, type: 2}
+    value: {fileID: 1928747999}
+  - key: {fileID: 6501948735547450467, guid: 904183228994334489ef662c44296d4e, type: 2}
+    value: {fileID: 1928748000}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &172774491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172774489}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.098745, y: 10.8489, z: 19.432878}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &321411030
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,59 +364,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842447304}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1070.783, y: 1014.6501, z: -1556.2738}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1112174455
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1112174457}
-  - component: {fileID: 1112174456}
-  m_Layer: 0
-  m_Name: cutscenedirector
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!320 &1112174456
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112174455}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: eae9bf6f28bef2e4cbc5cffca5126116, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -6879205764531347570, guid: eae9bf6f28bef2e4cbc5cffca5126116, type: 2}
-    value: {fileID: 1928747999}
-  - key: {fileID: -7439175730714424764, guid: eae9bf6f28bef2e4cbc5cffca5126116, type: 2}
-    value: {fileID: 1928748000}
-  m_ExposedReferences:
-    m_References: []
---- !u!4 &1112174457
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112174455}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1070.783, y: 1014.6501, z: -1556.2738}
@@ -1124,6 +1124,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 21cbf45e13a57224aa127b353387f961, type: 2}
     - {fileID: 11400000, guid: aaa2b02c1a11bb444a9225a8b6f9acd8, type: 2}
     - {fileID: 11400000, guid: bab3233bd1141ba45a14ea8b6e1b9344, type: 2}
+    - {fileID: 11400000, guid: 0b5d8812c8523aa4db10bb4188badeb9, type: 2}
+    - {fileID: 11400000, guid: e29b6c65973961741a386a9166bab0fd, type: 2}
+    - {fileID: 11400000, guid: b02ae00e02e561c4bb8cb7208b21517c, type: 2}
+    - {fileID: 11400000, guid: 4ee4af5c22af10141be80a4112b189bf, type: 2}
+    - {fileID: 11400000, guid: 8b3ff9599589e23488cf6d6690749747, type: 2}
+    - {fileID: 11400000, guid: c5fb2deaf60c3ab45ae3fa8807f8297e, type: 2}
+    - {fileID: 11400000, guid: 7929602b24e2c164d8c62a011d6afd96, type: 2}
+    - {fileID: 11400000, guid: b6560aaafdc9c1f4292a758f2e355bbc, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -1136,7 +1144,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Im sorry sophie...
+            m_StringArgument: Everything finally makes sense
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1150,7 +1158,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Why did you leave me behind...
+            m_StringArgument: You've been gone a while haven't you Sophie...
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1178,7 +1186,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 'why didnt you talk to me... '
+            m_StringArgument: Thats why you won't respond to me
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1192,7 +1200,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: We all loved you
+            m_StringArgument: I'm too late aren't I
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1206,7 +1214,120 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Im sorry...
+            m_StringArgument: I'm sorry...
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I should've taken better care of you
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: While I still could...
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I should've stepped in when mum would scream at you
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I should've comforted you when you cried every night
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I should've listened to you when you told me about
+              the dark thoughts you were having
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I should've stopped you from leaving that night
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I'm sorry i couldn't save you sis
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I love you...
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1928748001
@@ -1601,4 +1722,4 @@ SceneRoots:
   - {fileID: 321411033}
   - {fileID: 1928748002}
   - {fileID: 842447306}
-  - {fileID: 1112174457}
+  - {fileID: 172774491}

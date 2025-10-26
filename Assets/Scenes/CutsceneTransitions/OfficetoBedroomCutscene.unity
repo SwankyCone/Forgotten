@@ -319,7 +319,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1112174455
+--- !u!1 &1139079044
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -327,46 +327,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1112174457}
-  - component: {fileID: 1112174456}
+  - component: {fileID: 1139079046}
+  - component: {fileID: 1139079045}
   m_Layer: 0
-  m_Name: cutscenedirector
+  m_Name: officedirect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!320 &1112174456
+--- !u!320 &1139079045
 PlayableDirector:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112174455}
+  m_GameObject: {fileID: 1139079044}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: eae9bf6f28bef2e4cbc5cffca5126116, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: aaac0e67dc8013f49a6be8b652366543, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -6879205764531347570, guid: eae9bf6f28bef2e4cbc5cffca5126116, type: 2}
+  - key: {fileID: 5773428864567438155, guid: aaac0e67dc8013f49a6be8b652366543, type: 2}
     value: {fileID: 1928747999}
-  - key: {fileID: -7439175730714424764, guid: eae9bf6f28bef2e4cbc5cffca5126116, type: 2}
+  - key: {fileID: -8926210062537641793, guid: aaac0e67dc8013f49a6be8b652366543, type: 2}
     value: {fileID: 1928748000}
   m_ExposedReferences:
     m_References: []
---- !u!4 &1112174457
+--- !u!4 &1139079046
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112174455}
+  m_GameObject: {fileID: 1139079044}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1070.783, y: 1014.6501, z: -1556.2738}
+  m_LocalPosition: {x: 21.098745, y: 10.8489, z: 19.432878}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1601,4 +1601,4 @@ SceneRoots:
   - {fileID: 321411033}
   - {fileID: 1928748002}
   - {fileID: 842447306}
-  - {fileID: 1112174457}
+  - {fileID: 1139079046}

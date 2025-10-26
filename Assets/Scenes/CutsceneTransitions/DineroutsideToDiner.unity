@@ -119,6 +119,59 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &248990168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 248990170}
+  - component: {fileID: 248990169}
+  m_Layer: 0
+  m_Name: outsidetoinsidedirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &248990169
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248990168}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 0d337119cccb26c49b732c9bbf4eb1bc, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 5968724843230547470, guid: 0d337119cccb26c49b732c9bbf4eb1bc, type: 2}
+    value: {fileID: 1928747999}
+  - key: {fileID: 8485517513522613800, guid: 0d337119cccb26c49b732c9bbf4eb1bc, type: 2}
+    value: {fileID: 1928748000}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &248990170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248990168}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.098745, y: 10.8489, z: 19.432878}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &321411030
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,59 +364,6 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842447304}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1070.783, y: 1014.6501, z: -1556.2738}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1112174455
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1112174457}
-  - component: {fileID: 1112174456}
-  m_Layer: 0
-  m_Name: cutscenedirector
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!320 &1112174456
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112174455}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: eae9bf6f28bef2e4cbc5cffca5126116, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -6879205764531347570, guid: eae9bf6f28bef2e4cbc5cffca5126116, type: 2}
-    value: {fileID: 1928747999}
-  - key: {fileID: -7439175730714424764, guid: eae9bf6f28bef2e4cbc5cffca5126116, type: 2}
-    value: {fileID: 1928748000}
-  m_ExposedReferences:
-    m_References: []
---- !u!4 &1112174457
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112174455}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1070.783, y: 1014.6501, z: -1556.2738}
@@ -1124,6 +1124,11 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 21cbf45e13a57224aa127b353387f961, type: 2}
     - {fileID: 11400000, guid: aaa2b02c1a11bb444a9225a8b6f9acd8, type: 2}
     - {fileID: 11400000, guid: bab3233bd1141ba45a14ea8b6e1b9344, type: 2}
+    - {fileID: 11400000, guid: 0b5d8812c8523aa4db10bb4188badeb9, type: 2}
+    - {fileID: 11400000, guid: e29b6c65973961741a386a9166bab0fd, type: 2}
+    - {fileID: 11400000, guid: b02ae00e02e561c4bb8cb7208b21517c, type: 2}
+    - {fileID: 11400000, guid: 4ee4af5c22af10141be80a4112b189bf, type: 2}
+    - {fileID: 11400000, guid: 8b3ff9599589e23488cf6d6690749747, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -1136,7 +1141,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Moxies closed down years ago
+            m_StringArgument: How is this place still here?
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1150,7 +1155,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: What did your boss do to you
+            m_StringArgument: Moxies closed down years ago.
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1178,7 +1183,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Why would you take me here
+            m_StringArgument: And what was this note your boss put on the front door
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1192,7 +1197,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: What happened to you...
+            m_StringArgument: Is this what you were talking about in your diary?
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1206,7 +1211,77 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Come home, we can take care of this
+            m_StringArgument: What has he been doing to you.
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: If you need help im here for you
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I always have been
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: We can go to the police or tell someone about this
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Just come home and we can sort this out
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I'll always be here for you...
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1928748001
@@ -1601,4 +1676,4 @@ SceneRoots:
   - {fileID: 321411033}
   - {fileID: 1928748002}
   - {fileID: 842447306}
-  - {fileID: 1112174457}
+  - {fileID: 248990170}
