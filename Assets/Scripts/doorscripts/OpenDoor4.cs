@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpenDoor : MonoBehaviour, IInteractable
+public class OpenDoor4 : MonoBehaviour, IInteractable
 {
     Animator Cube;
     [SerializeField] AudioManager audioManager;
@@ -15,7 +15,7 @@ public class OpenDoor : MonoBehaviour, IInteractable
     {
         Debug.Log("hll");
         Cube.SetBool("DoorOpen", true);
-        audioManager.ExtraDoor.PlayOneShot(audioManager.doorUnlock);
+        audioManager.Door4.PlayOneShot(audioManager.doorUnlock);
 
 
     }

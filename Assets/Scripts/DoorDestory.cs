@@ -39,14 +39,14 @@ public class DoorDestory : MonoBehaviour, IInteractable
             //if (audioManager != null && audioManager.doorUnlock != null)
 
             // hori audio controller
-            audioManager.source.PlayOneShot(audioManager.doorUnlock);
+            audioManager.source1.PlayOneShot(audioManager.doorUnlock);
         }
 
         else
         {
             StartCoroutine(ShowWarningText());
             //if (audioManager != null && audioManager.doorLocked != null)
-            audioManager.source.PlayOneShot(audioManager.doorLocked);
+            audioManager.source1.PlayOneShot(audioManager.doorLocked);
         }
     }
 

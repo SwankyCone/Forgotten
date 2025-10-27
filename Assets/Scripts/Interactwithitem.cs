@@ -16,6 +16,9 @@ public class Interactwithitem : MonoBehaviour, IInteractable
     public GameObject particle;
     public string[] description;
     public int index;
+
+    public AudioSource audioSource;
+    public AudioClip interactSound;
     public void Interact()
     {
         if (itemActive == false && playerCanMove == true) 
@@ -31,6 +34,12 @@ public class Interactwithitem : MonoBehaviour, IInteractable
             descriptionText.text = description[index];
             closeItemText.gameObject.SetActive(true);
             descriptionText.gameObject.SetActive(true);
+
+            if (audioSource != null && interactSound != null)
+            {
+                audioSource.PlayOneShot(interactSound);
+            }
+
         }
 
     }

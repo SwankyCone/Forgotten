@@ -23,7 +23,7 @@ public class ToggleCamera : MonoBehaviour, IInteractable
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        closeItemText.text = "Space To Close";
+        closeItemText.text = "[ Space To Close] ";
         closeItemText.gameObject.SetActive(true);
 
 
