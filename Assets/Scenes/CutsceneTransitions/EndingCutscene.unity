@@ -1256,7 +1256,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: I should've stepped in when mum would scream at you
+            m_StringArgument: I should've stepped in when mum would hit you
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1270,7 +1270,8 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: I should've comforted you when you cried every night
+            m_StringArgument: I should've comforted you when you came home crying
+              that night
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1313,7 +1314,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: I'm sorry i couldn't save you sis
+            m_StringArgument: I'm sorry I couldn't save you sis
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1327,7 +1328,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: I love you...
+            m_StringArgument: I miss you...
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1928748001

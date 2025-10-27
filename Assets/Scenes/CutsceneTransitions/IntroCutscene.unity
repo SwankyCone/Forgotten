@@ -1124,6 +1124,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 21cbf45e13a57224aa127b353387f961, type: 2}
     - {fileID: 11400000, guid: aaa2b02c1a11bb444a9225a8b6f9acd8, type: 2}
     - {fileID: 11400000, guid: bab3233bd1141ba45a14ea8b6e1b9344, type: 2}
+    - {fileID: 11400000, guid: 0b5d8812c8523aa4db10bb4188badeb9, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -1151,7 +1152,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: You're wasting everyone's time.
+            m_StringArgument: You're wasting everyone's time
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1194,7 +1195,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Just come home. Please.
+            m_StringArgument: Just come home. Please
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1211,6 +1212,20 @@ MonoBehaviour:
             m_StringArgument: We miss you...
             m_BoolArgument: 0
           m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: You're lucking dad's making me come after you
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &1928748001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1224,7 +1239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1792191554}
-  typingSpeed: 0.06
+  typingSpeed: 0.05
   typingSound: {fileID: 1928748003}
 --- !u!4 &1928748002
 Transform:

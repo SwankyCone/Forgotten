@@ -1136,7 +1136,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Why does everything look different here
+            m_StringArgument: Why does everything look different now
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1150,7 +1150,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Somethings not right
+            m_StringArgument: Something's not right
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1178,7 +1178,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Only normal thing is dads office
+            m_StringArgument: Only normal thing here is dad's office
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1192,7 +1192,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Where are you sophie
+            m_StringArgument: Where are you Sophie
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1206,7 +1206,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Your scaring me
+            m_StringArgument: You're scaring me
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1928748001

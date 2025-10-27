@@ -1158,7 +1158,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Whats going on, nothing makes sense anymore
+            m_StringArgument: What's going on, nothing makes sense anymore
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1200,7 +1200,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Its never this clean.
+            m_StringArgument: It's never this clean
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1228,7 +1228,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: why was there blood all over them
+            m_StringArgument: Why was there blood all over them
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1270,7 +1270,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: I told you to stop doing that and ask me for help.
+            m_StringArgument: I told you to stop doing that and ask me for help
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1299,7 +1299,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 'Please come home... '
+            m_StringArgument: Please come home
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1313,7 +1313,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: I can help you.
+            m_StringArgument: I can help you
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1327,7 +1327,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: You're not alone
+            m_StringArgument: You're not alone...
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1928748001
