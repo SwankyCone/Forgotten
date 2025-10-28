@@ -20,11 +20,13 @@ public class DiaryInspect : MonoBehaviour, IInteractable
     public GameObject page3;
     public GameObject page4;
 
+    public AudioSource audioSource;
+    public AudioClip turnpagesound;
 
     private int currentPage = 1;
     private bool itemActive = false;
     private bool playerCanMove = true;
-
+    public AudioClip interactSound;
     public void Interact()
     {
         if (!itemActive && playerCanMove)
@@ -42,6 +44,11 @@ public class DiaryInspect : MonoBehaviour, IInteractable
 
             instructions.text = "[ Q / E To Turn Page ]";
             instructions.gameObject.SetActive(true);
+
+            if (audioSource != null && interactSound != null)
+            {
+                audioSource.PlayOneShot(interactSound);
+            }
             // Start on page 1
             ShowPage(1);
         }
@@ -79,6 +86,7 @@ public class DiaryInspect : MonoBehaviour, IInteractable
         currentPage = Mathf.Clamp(currentPage, 1, 4);
 
         ShowPage(currentPage);
+        audioSource.PlayOneShot(turnpagesound);
     }
 
     private void ShowPage(int pageNumber)

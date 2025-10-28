@@ -36,7 +36,7 @@ public class KeyBehaviour1 : MonoBehaviour, IInteractable
     private IEnumerator ShowWarningText() // text pop up
     {
         // change this to change text
-        warningText.text = "Key Collected";
+        warningText.text = "[ Key Collected ]";
         warningText.gameObject.SetActive(true);
         yield return new WaitForSeconds(warningDisplayTime);
         warningText.gameObject.SetActive(false);

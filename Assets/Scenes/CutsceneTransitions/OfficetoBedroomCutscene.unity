@@ -1124,6 +1124,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 21cbf45e13a57224aa127b353387f961, type: 2}
     - {fileID: 11400000, guid: aaa2b02c1a11bb444a9225a8b6f9acd8, type: 2}
     - {fileID: 11400000, guid: bab3233bd1141ba45a14ea8b6e1b9344, type: 2}
+    - {fileID: 11400000, guid: 0b5d8812c8523aa4db10bb4188badeb9, type: 2}
+    - {fileID: 11400000, guid: e29b6c65973961741a386a9166bab0fd, type: 2}
+    - {fileID: 11400000, guid: b02ae00e02e561c4bb8cb7208b21517c, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -1136,7 +1139,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Why does everything look different now
+            m_StringArgument: Why does dad's old office look so clean now
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1150,7 +1153,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Something's not right
+            m_StringArgument: Didn't they close down year's ago?
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1178,7 +1181,8 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Only normal thing here is dad's office
+            m_StringArgument: Even the old drawing I drew when I was a kid is still
+              here
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1192,7 +1196,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Where are you Sophie
+            m_StringArgument: Why were you blurred out in the drawing Sophie
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1206,7 +1210,49 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: You're scaring me
+            m_StringArgument: I never did that
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Can you just hurry up and come home already
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: I'm worried
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928748001}
+          m_TargetAssemblyTypeName: TypewriterEffect, Assembly-CSharp
+          m_MethodName: StartTyping
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: This isn't like you.
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1928748001
