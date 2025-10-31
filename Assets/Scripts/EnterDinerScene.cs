@@ -46,7 +46,7 @@ public class EnterDinerScene : MonoBehaviour, IInteractable
         else
         {
             StartCoroutine(ShowWarningText());
-            //audioManager.source.PlayOneShot(audioManager.doorLocked);
+            audioManager.source2.PlayOneShot(audioManager.doorLocked);
         }
     }
 

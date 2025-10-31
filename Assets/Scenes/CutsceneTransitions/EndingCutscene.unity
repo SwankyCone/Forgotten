@@ -1470,7 +1470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d08b28198b5e8984997a1d183ac5a510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: 3D_MainMenu
+  nextSceneName: Game_Quit
   delayBeforeLoad: 5
 --- !u!1 &2046105666
 GameObject:

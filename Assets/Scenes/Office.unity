@@ -34801,6 +34801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   source1: {fileID: 0}
+  source2: {fileID: 0}
   padLock: {fileID: 0}
   Door: {fileID: 0}
   Door1: {fileID: 0}
@@ -36487,7 +36488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.0197
+      value: 7.9639997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46322,7 +46323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.0197
+      value: 7.964
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalRotation.w
@@ -92003,7 +92004,7 @@ Transform:
   m_GameObject: {fileID: 1522317518}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -145.813, y: 13.435, z: -1.272}
+  m_LocalPosition: {x: -139.887, y: 10.156, z: -7.181}
   m_LocalScale: {x: 0.393935, y: 0.393935, z: 0.393935}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -120217,7 +120218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.384
+      value: -24.471
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalPosition.y
@@ -120225,11 +120226,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.0197
+      value: 7.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: -0.31017146
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalRotation.x
@@ -120237,7 +120238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.9506807
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalRotation.z
@@ -120249,7 +120250,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 216.139
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -127978,6 +127979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 2128213149}
   source1: {fileID: 1367897779}
+  source2: {fileID: 0}
   padLock: {fileID: 580632741}
   Door: {fileID: 1857648634}
   Door1: {fileID: 53589062}
@@ -135629,7 +135631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.0197
+      value: 7.9639997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ebca4036fd39ceb4f8eb4fd64bcec588, type: 3}
       propertyPath: m_LocalRotation.w

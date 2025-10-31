@@ -1176,7 +1176,7 @@ Light:
   m_BounceIntensity: 2
   m_ColorTemperature: 5569
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 6.4827366e-10, y: 2.5984503e+20, z: 2.598459e+20, w: 0.0000027300196}
+  m_BoundingSphereOverride: {x: 2.4866e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -3955,6 +3955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1839118780}
   source1: {fileID: 0}
+  source2: {fileID: 0}
   padLock: {fileID: 0}
   Door: {fileID: 0}
   Door1: {fileID: 0}
@@ -4829,33 +4830,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 79846.83
-    'sh[ 1]': 59597.723
-    'sh[ 2]': -12105.822
-    'sh[ 3]': -5928.6675
-    'sh[ 4]': -3032.3433
-    'sh[ 5]': -3615.442
-    'sh[ 6]': -1283.7087
-    'sh[ 7]': 137.9562
-    'sh[ 8]': -5710.7705
-    'sh[ 9]': 61418.637
-    'sh[10]': 48442.426
-    'sh[11]': -9841.271
-    'sh[12]': -5700.4995
-    'sh[13]': -2657.331
-    'sh[14]': -3241.503
-    'sh[15]': -1098.5891
-    'sh[16]': 393.15256
-    'sh[17]': -4680.386
-    'sh[18]': 41649.062
-    'sh[19]': 33167.082
-    'sh[20]': -7690.367
-    'sh[21]': -4452.7695
-    'sh[22]': -2074.75
-    'sh[23]': -2473.7795
-    'sh[24]': -744.2513
-    'sh[25]': 370.5219
-    'sh[26]': -3358.448
+    'sh[ 0]': 79302.555
+    'sh[ 1]': 59537.23
+    'sh[ 2]': -12477.868
+    'sh[ 3]': -5774.6914
+    'sh[ 4]': -3019.6907
+    'sh[ 5]': -3628.5303
+    'sh[ 6]': -1309.8285
+    'sh[ 7]': 202.54877
+    'sh[ 8]': -5722.2
+    'sh[ 9]': 61241.043
+    'sh[10]': 48420.52
+    'sh[11]': -9975.164
+    'sh[12]': -5646.264
+    'sh[13]': -2653.8503
+    'sh[14]': -3244.6252
+    'sh[15]': -1107.9089
+    'sh[16]': 417.03934
+    'sh[17]': -4684.1626
+    'sh[18]': 41577.453
+    'sh[19]': 33161.453
+    'sh[20]': -7747.957
+    'sh[21]': -4428.731
+    'sh[22]': -2073.7925
+    'sh[23]': -2474.7798
+    'sh[24]': -748.36084
+    'sh[25]': 382.12704
+    'sh[26]': -3359.7527
   m_SHValidForCapturePosition: {x: -252.29, y: 7.373, z: 0.41844177}
   m_SHValidForSourcePosition: {x: -252.29, y: 7.373, z: 0.41844177}
   m_HDProbeVersion: 9
@@ -5226,6 +5227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   source1: {fileID: 0}
+  source2: {fileID: 0}
   padLock: {fileID: 0}
   Door: {fileID: 0}
   Door1: {fileID: 0}
@@ -24293,6 +24295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   source1: {fileID: 0}
+  source2: {fileID: 0}
   padLock: {fileID: 0}
   Door: {fileID: 0}
   Door1: {fileID: 0}

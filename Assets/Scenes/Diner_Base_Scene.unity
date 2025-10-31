@@ -3635,8 +3635,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 10.338242, y: 5.0262833, z: 13.649124}
-  m_Center: {x: -24.281754, y: 19.781261, z: 21.437656}
+  m_Size: {x: 10.243004, y: 5.0262833, z: 13.649124}
+  m_Center: {x: -24.234135, y: 19.781261, z: 21.437656}
 --- !u!1001 &129725933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42322,6 +42322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   source1: {fileID: 0}
+  source2: {fileID: 0}
   padLock: {fileID: 0}
   Door: {fileID: 0}
   Door1: {fileID: 0}
@@ -48123,79 +48124,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9290389bb6d377644aaf52b3354571a6, type: 3}
   m_PrefabInstance: {fileID: 1383793649}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1387964105
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4109136161598964435, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_ScaleMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8952943136375417793, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_Name
-      value: Clover 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5608217
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5608217
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5608217
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.334
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 8.779
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.29126358
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.9566429
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 146.133
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980411018594138551, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4e29ee3bbb738a843923213448076c22, type: 3}
 --- !u!1001 &1389722802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55371,8 +55299,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 13.24995, y: 5.0262833, z: 11.145462}
-  m_Center: {x: -25.759794, y: 19.781261, z: 21.47134}
+  m_Size: {x: 13.24995, y: 5.0262833, z: 11.003034}
+  m_Center: {x: -25.759794, y: 19.781261, z: 21.40013}
 --- !u!1 &1598228265
 GameObject:
   m_ObjectHideFlags: 0
@@ -64792,8 +64720,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6.175315, y: 5.0262833, z: 16.299614}
-  m_Center: {x: -16.443272, y: 19.781261, z: 20.112411}
+  m_Size: {x: 6.0895653, y: 5.0262833, z: 16.299614}
+  m_Center: {x: -16.486147, y: 19.781261, z: 20.112411}
 --- !u!1001 &1715423636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68365,6 +68293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   source1: {fileID: 0}
+  source2: {fileID: 2050718048}
   padLock: {fileID: 0}
   Door: {fileID: 0}
   Door1: {fileID: 0}
@@ -82545,8 +82474,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 12.554504, y: 5.0262833, z: 16.329376}
-  m_Center: {x: -16.06757, y: 19.781261, z: 20.09753}
+  m_Size: {x: 12.296005, y: 5.0262833, z: 16.329376}
+  m_Center: {x: -16.19682, y: 19.781261, z: 20.09753}
 --- !u!1 &2063396541
 GameObject:
   m_ObjectHideFlags: 0
@@ -83870,8 +83799,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 20.075684, y: 5.0262833, z: 8.542225}
-  m_Center: {x: -27.697533, y: 19.781261, z: 20.169722}
+  m_Size: {x: 20.075684, y: 5.0262833, z: 8.343798}
+  m_Center: {x: -27.697533, y: 19.781261, z: 20.07051}
 --- !u!1001 &2106853896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84962,8 +84891,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 10.878574, y: 5.0262833, z: 11.328325}
-  m_Center: {x: -28.470259, y: 19.781261, z: 20.011482}
+  m_Size: {x: 10.878574, y: 5.0262833, z: 10.830435}
+  m_Center: {x: -28.470259, y: 19.781261, z: 19.918613}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -84987,7 +84916,6 @@ SceneRoots:
   - {fileID: 1981934946}
   - {fileID: 335166094}
   - {fileID: 1893906275}
-  - {fileID: 1387964105}
   - {fileID: 1533588235}
   - {fileID: 1136518162}
   - {fileID: 1426454209}
