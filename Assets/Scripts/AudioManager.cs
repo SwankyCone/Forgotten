@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource source;
     public AudioSource source1;
     public AudioSource source2;
+    public AudioSource source3;
     public AudioSource padLock;
     public AudioSource Door;
     public AudioSource Door1;

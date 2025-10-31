@@ -47,7 +47,7 @@ public class EnterBedroomScene : MonoBehaviour, IInteractable
         else
         {
             StartCoroutine(ShowWarningText());
-            //audioManager.source.PlayOneShot(audioManager.doorLocked);
+            audioManager.source3.PlayOneShot(audioManager.doorLocked);
         }
     }
 

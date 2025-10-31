@@ -1164,7 +1164,7 @@ MonoBehaviour:
     - m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1928748004}
-          m_TargetAssemblyTypeName: CutsceneENd, Assembly-CSharp
+          m_TargetAssemblyTypeName: CutsceneENd1, Assembly-CSharp
           m_MethodName: EndCutscene
           m_Mode: 1
           m_Arguments:
@@ -1467,11 +1467,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1928747999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08b28198b5e8984997a1d183ac5a510, type: 3}
+  m_Script: {fileID: 11500000, guid: 0303f0b862c734946aac8c9442d248e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nextSceneName: Game_Quit
-  delayBeforeLoad: 5
+  delayBeforeLoad: 2
 --- !u!1 &2046105666
 GameObject:
   m_ObjectHideFlags: 0
