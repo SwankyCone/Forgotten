@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -10,8 +11,9 @@ public class KeyBehaviour : MonoBehaviour, IInteractable
     [SerializeField] TMP_Text warningText;
     float warningDisplayTime = 3f;
     public GameObject particle;
-
-
+    [SerializeField] TMP_Text descriptionText;
+    public string[] description;
+    public int index;
     public void Interact()
     {
         audioManager.storageKey.PlayOneShot(audioManager.keyGrab);
@@ -36,10 +38,13 @@ public class KeyBehaviour : MonoBehaviour, IInteractable
     private IEnumerator ShowWarningText() // text pop up
     {
         // change this to change text
-        warningText.text = "[ Key Collected ]";
-        warningText.gameObject.SetActive(true);
+        descriptionText.text = description[index];
+        //warningText.text = "[ Key Collected ]";
+       // warningText.gameObject.SetActive(true);
+        descriptionText.gameObject.SetActive(true);
         yield return new WaitForSeconds(warningDisplayTime);
-        warningText.gameObject.SetActive(false);
+        descriptionText.gameObject.SetActive(false);
+        //warningText.gameObject.SetActive(false);
 
     }
 }
