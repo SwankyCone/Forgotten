@@ -3353,7 +3353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &462057827
 Transform:
   m_ObjectHideFlags: 0
@@ -3956,6 +3956,7 @@ MonoBehaviour:
   source: {fileID: 1839118780}
   source1: {fileID: 0}
   source2: {fileID: 0}
+  source3: {fileID: 0}
   padLock: {fileID: 0}
   Door: {fileID: 0}
   Door1: {fileID: 0}
@@ -5228,6 +5229,7 @@ MonoBehaviour:
   source: {fileID: 0}
   source1: {fileID: 0}
   source2: {fileID: 0}
+  source3: {fileID: 0}
   padLock: {fileID: 0}
   Door: {fileID: 0}
   Door1: {fileID: 0}
@@ -24296,6 +24298,7 @@ MonoBehaviour:
   source: {fileID: 0}
   source1: {fileID: 0}
   source2: {fileID: 0}
+  source3: {fileID: 0}
   padLock: {fileID: 0}
   Door: {fileID: 0}
   Door1: {fileID: 0}
